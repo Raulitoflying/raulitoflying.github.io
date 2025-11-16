@@ -98,6 +98,11 @@
               >
             </li>
             <li class="nav-item">
+              <a data-scroll class="nav-link" href="/blog"
+                >BLOG</a
+              >
+            </li>
+            <li class="nav-item">
               <a data-scroll class="nav-link" href="/#contact"
                 >CONTACT</a
               >
@@ -154,137 +159,375 @@
 
     <main class="container">
         
-<div class="list flex-grow-1"> 
-  <section id="main-content" class="container section list-term">
-    <h1>Guide</h1>
+<div id="main-content" class="blog flex-grow-1">
+  <div class="container section">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="rad-fade-down rad-waiting rad-animate">Guide</h1>
+        <p class="blog-description"></p>
+
+        
+        <div class="category-nav">
+          <div class="category-filters">
+            <a href="/blog/" class="category-btn all-posts">
+              <span class="category-icon">📚</span>
+              <span class="category-text">All Posts</span>
+            </a>
+            <a href="/categories/tech/" class="category-btn tech">
+              <span class="category-icon">💻</span>
+              <span class="category-text">Tech</span>
+            </a>
+            <a href="/categories/work/" class="category-btn work">
+              <span class="category-icon">💼</span>
+              <span class="category-text">Work</span>
+            </a>
+            <a href="/categories/life/" class="category-btn life">
+              <span class="category-icon">🌱</span>
+              <span class="category-text">Life</span>
+            </a>
+          </div>
+        </div>
+
+        <style>
+        .blog-description {
+          font-size: 1.1rem;
+          color: #6c757d;
+          margin-bottom: 2rem;
+          line-height: 1.6;
+        }
+
+        .category-nav {
+          margin: 3rem 0;
+        }
+
+        .category-filters {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 1rem;
+        }
+
+        .category-btn {
+          display: inline-flex;
+          align-items: center;
+          padding: 0.75rem 1.5rem;
+          background: #f8f9fa;
+          border: 2px solid #5f9c9c;
+          border-radius: 50px;
+          text-decoration: none;
+          color: #495057;
+          font-weight: 500;
+          transition: all 0.3s ease;
+          box-shadow: 0 2px 8px rgba(95, 156, 156, 0.1);
+        }
+
+        .category-btn:hover {
+          background: #5f9c9c;
+          color: white;
+          transform: translateY(-2px);
+          box-shadow: 0 6px 20px rgba(95, 156, 156, 0.25);
+          text-decoration: none;
+        }
+
+        .category-icon {
+          font-size: 1.2rem;
+          margin-right: 0.5rem;
+        }
+
+        .category-text {
+          font-size: 0.95rem;
+          letter-spacing: 0.025em;
+        }
+
+         
+        .posts-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+          gap: 1.5rem;
+          margin-top: 2rem;
+        }
+
+        .blog-card {
+          background: #fff !important;
+          border-radius: 12px;
+          border-left: 4px solid #5f9c9c;
+          padding: 1.5rem;
+          transition: all 0.3s ease;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+          display: flex;
+          flex-direction: column;
+        }
+
+        .blog-card:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 8px 24px rgba(95, 156, 156, 0.2);
+          border-left-color: #4a7c7c;
+        }
+
+        .blog-card-header {
+          margin-bottom: 1rem;
+        }
+
+        .blog-card-title {
+          font-size: 1.4rem;
+          font-weight: 600;
+          margin-bottom: 0.75rem;
+          line-height: 1.3;
+        }
+
+        .blog-card-title a {
+          color: #2c3e50 !important;
+          text-decoration: none;
+          transition: color 0.3s ease;
+        }
+
+        .blog-card-title a:hover {
+          color: #5f9c9c;
+        }
+
+        .blog-meta {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+          font-size: 0.875rem;
+          color: #6c757d;
+          margin-bottom: 1rem;
+        }
+
+        .blog-date, .blog-wordcount {
+          display: flex;
+          align-items: center;
+          gap: 0.3rem;
+        }
+
+        .blog-date::before {
+          content: "📅";
+        }
+
+        .blog-wordcount::before {
+          content: "📝";
+        }
+
+        .blog-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.5rem;
+          margin-bottom: 1rem;
+        }
+
+        .blog-tag {
+          display: inline-block;
+          padding: 0.25rem 0.75rem;
+          background: #4f7c7c;
+          border-radius: 20px;
+          font-size: 0.8rem;
+          color: #ffffff;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        }
+
+        .blog-tag:hover {
+          background: #3c5f5f;
+          color: #ffffff;
+          text-decoration: none;
+        }
+
+        .blog-summary {
+          flex-grow: 1;
+          color: #2c3e50 !important;
+          line-height: 1.6;
+          margin-bottom: 1.5rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          max-height: 4.8em;
+        }
+
+        .blog-summary * {
+          color: #2c3e50 !important;
+        }
+
+        .blog-card-footer {
+          margin-top: auto;
+        }
+
+        .blog-read-more {
+          display: inline-flex;
+          align-items: center;
+          padding: 0.6rem 1.25rem;
+          background: #5f9c9c;
+          color: white;
+          border-radius: 8px;
+          text-decoration: none;
+          font-weight: 500;
+          transition: all 0.3s ease;
+        }
+
+        .blog-read-more:hover {
+          background: #4a7c7c;
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(95, 156, 156, 0.3);
+          color: white;
+          text-decoration: none;
+        }
+
+        .blog-read-more::after {
+          content: " →";
+          margin-left: 0.5rem;
+        }
+
+         
+        @media (max-width: 768px) {
+          .posts-grid {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+          }
+
+          .category-filters {
+            flex-direction: column;
+            align-items: stretch;
+          }
+
+          .category-btn {
+            justify-content: center;
+          }
+
+          .blog-card {
+            padding: 1.25rem;
+          }
+
+          .blog-card-title {
+            font-size: 1.2rem;
+          }
+        }
+
+         
+        @media (prefers-color-scheme: dark) {
+          .blog-card {
+            background: #2d3748;
+            border-left-color: #5f9c9c;
+          }
+
+          .blog-card-title a {
+            color: #e2e8f0;
+          }
+
+          .blog-card-title a:hover {
+            color: #5f9c9c;
+          }
+
+          .blog-meta {
+            color: #a0aec0;
+          }
+
+          .blog-summary {
+            color: #cbd5e0;
+          }
+
+          .blog-tag {
+            background: #4f7c7c;
+            color: #ffffff;
+          }
+
+          .blog-tag:hover {
+            background: #3c5f5f;
+            color: #ffffff;
+          }
+
+          .blog-description {
+            color: #a0aec0;
+          }
+        }
+        </style>
+
+        
+        <div class="posts-grid">
+          
+            <article class="blog-card">
+  <div class="blog-card-header">
+    <h2 class="blog-card-title">
+      <a href="/blog/shortcodes/">Theme shortcodes</a>
+    </h2>
+
+    <div class="blog-meta">
+      <span class="blog-date">Feb 14, 2025</span>
+      <span class="blog-wordcount">1274 words</span>
+    </div>
+
     
+    <div class="blog-tags">
       
-        <div class="posts-list">
-          
-            <div class="row row--padded rad-animation-group rad-fade-down rad-waiting rad-animate section--border-bottom">
-              <article class="post summary col-12">
-  <header>
-    <h2 class="post-title"><a href="/blog/shortcodes/">Theme shortcodes</a></h2>
-    <div class="post-meta">
-      <div>
-        <section>
-          Published on  
-          <h4 class="date">Fri Feb 14, 2025</h4> · 
-          <h4 class="wordcount">1251 Words</h4>
-        </section>
-         
-        <ul class="tags">
-          
-          <li><a href="/tags/adritian/">Adritian</a></li>
-          
-          <li><a href="/tags/guide/">Guide</a></li>
-          
-        </ul>
-        
-      </div>
+      <a href="/tags/adritian/" class="blog-tag">Adritian</a>
+      
+      <a href="/tags/guide/" class="blog-tag">Guide</a>
+      
     </div>
-  </header>
-  <div class="post-summary post-content">
-  <p>Shortcodes are a convenient <a href="https://gohugo.io/content-management/shortcodes/">functionality of Hugo</a>, allowing you to embed templates or layouts within other content.</p>
-<p>Some of the example built-in shortcodes are Instagram posts, YouTube videos, QR codes, etc. You can find <a href="https://gohugo.io/content-management/shortcodes/#embedded">the full list in the official docs</a>.</p>
-<p>The theme provides custom shortcodes to allow you to customize your landing page as you want:</p>
-<ul>
-<li><code>education-list</code>: Displays a list of educational qualifications.</li>
-<li><code>experience-list</code>: Shows a list of professional experiences.</li>
-<li><code>platform-links</code>: Embeds links to various platforms with icons.</li>
-<li><code>newsletter-section</code>: Adds a section for newsletter subscription.</li>
-<li><code>link</code>: Creates a hyperlink with an icon.</li>
-<li><code>experience-section</code>: Inserts a detailed experience section.</li>
-<li><code>contact-section</code>: Adds a contact information section, with a customizable form and information.</li>
-<li><code>client-and-work-section</code>: Displays a section for clients and work.</li>
-<li><code>about-section</code>: About section, with image, buttons for call to action and image.</li>
-<li><code>testimonial-section</code>: Adds references from customers, colleagues, etc.</li>
-<li><code>showcase</code>:</li>
-</ul>
-<p>The shortcodes can be customized with different arguments:</p>
+    
   </div>
 
-  <footer class="">
-    <div class="row">
-      <div class="col-12 col-lg-4">
-        <a class="btn btn-outline-secondary btn-sm" href="/blog/shortcodes/"
-          >Read more&nbsp;&raquo;</a
-        >
-      </div>
-    </div>
-  </footer>
-</article>
-
-            </div>
-          
-            <div class="row row--padded rad-animation-group rad-fade-down rad-waiting rad-animate section--border-bottom">
-              <article class="post summary col-12">
-  <header>
-    <h2 class="post-title"><a href="/blog/getting-started/">Create your own version of the site</a></h2>
-    <div class="post-meta">
-      <div>
-        <section>
-          Published on  
-          <h4 class="date">Tue Feb 11, 2025</h4> · 
-          <h4 class="wordcount">1498 Words</h4>
-        </section>
-         
-        <ul class="tags">
-          
-          <li><a href="/tags/adritian/">Adritian</a></li>
-          
-          <li><a href="/tags/guide/">Guide</a></li>
-          
-        </ul>
-        
-      </div>
-    </div>
-  </header>
-  <div class="post-summary post-content">
-  <p>This article is a guide to help you create your own version of the site using <a href="https://github.com/zetxek/adritian-free-hugo-theme">Adritian</a>. It will cover the main steps to get started with the theme, and how to customize it to your needs.</p>
-<h3 id="creating-a-site">Creating a site</h3>
-<p>This theme is for the content management system <a href="https://gohugo.io/">Hugo</a>, so that will be a pre-requirement.
-Make sure that you install the <code>extended</code> version of Hugo, as the theme uses SCSS for styling, as well as image optimization.</p>
+  <div class="blog-summary">
+    <p>Shortcodes are a convenient functionality of Hugo, allowing you to embed templates or layouts within other content. The theme provides custom shortcodes like education-list, experience-list, platform-links, newsletter-section, and more to help you customize your landing page exactly as you want.</p>
   </div>
 
-  <footer class="">
-    <div class="row">
-      <div class="col-12 col-lg-4">
-        <a class="btn btn-outline-secondary btn-sm" href="/blog/getting-started/"
-          >Read more&nbsp;&raquo;</a
-        >
-      </div>
-    </div>
-  </footer>
+  <div class="blog-card-footer">
+    <a href="/blog/shortcodes/" class="blog-read-more">Read More</a>
+  </div>
 </article>
+          
+            <article class="blog-card">
+  <div class="blog-card-header">
+    <h2 class="blog-card-title">
+      <a href="/blog/getting-started/">Create your own version of the site</a>
+    </h2>
 
-            </div>
-          
-            <div class="row row--padded rad-animation-group rad-fade-down rad-waiting rad-animate section--border-bottom">
-              <article class="post summary col-12">
-  <header>
-    <h2 class="post-title"><a href="/blog/other-installation-methods/">Other installation methods</a></h2>
-    <div class="post-meta">
-      <div>
-        <section>
-          Published on  
-          <h4 class="date">Tue Feb 11, 2025</h4> · 
-          <h4 class="wordcount">1292 Words</h4>
-        </section>
-         
-        <ul class="tags">
-          
-          <li><a href="/tags/adritian/">Adritian</a></li>
-          
-          <li><a href="/tags/guide/">Guide</a></li>
-          
-        </ul>
-        
-      </div>
+    <div class="blog-meta">
+      <span class="blog-date">Feb 11, 2025</span>
+      <span class="blog-wordcount">1504 words</span>
     </div>
-  </header>
-  <div class="post-summary post-content">
-  <p>This is a guide that extends the default instructions offered in <a href="https://github.com/zetxek/adritian-free-hugo-theme/blob/main/README.md">the theme readme</a>.</p>
+
+    
+    <div class="blog-tags">
+      
+      <a href="/tags/adritian/" class="blog-tag">Adritian</a>
+      
+      <a href="/tags/guide/" class="blog-tag">Guide</a>
+      
+    </div>
+    
+  </div>
+
+  <div class="blog-summary">
+    <p>This article is a guide to help you create your own version of the site using Adritian. It will cover the main steps to get started with the theme, how to customize it to your needs, and publish your site to the web.</p>
+  </div>
+
+  <div class="blog-card-footer">
+    <a href="/blog/getting-started/" class="blog-read-more">Read More</a>
+  </div>
+</article>
+          
+            <article class="blog-card">
+  <div class="blog-card-header">
+    <h2 class="blog-card-title">
+      <a href="/blog/other-installation-methods/">Other installation methods</a>
+    </h2>
+
+    <div class="blog-meta">
+      <span class="blog-date">Feb 11, 2025</span>
+      <span class="blog-wordcount">1292 words</span>
+    </div>
+
+    
+    <div class="blog-tags">
+      
+      <a href="/tags/adritian/" class="blog-tag">Adritian</a>
+      
+      <a href="/tags/guide/" class="blog-tag">Guide</a>
+      
+    </div>
+    
+  </div>
+
+  <div class="blog-summary">
+    <p>This is a guide that extends the default instructions offered in <a href="https://github.com/zetxek/adritian-free-hugo-theme/blob/main/README.md">the theme readme</a>.</p>
 <h4 id="manual-configuration">Manual configuration</h4>
 <p>If you prefer to manually set your site, you need to replace the contents of your config file (<code>hugo.toml</code>) file by these:</p>
 <details>
@@ -581,23 +824,15 @@ listStyle = &#34;summary&#34; # options: simple, summary
 The guide is very similar to <a href="https://gohugo.io/getting-started/quick-start/#create-a-site">official &ldquo;Quick Start&rdquo;</a>, just changing the theme URL in the <code>git submodule add</code> command:</p>
   </div>
 
-  <footer class="">
-    <div class="row">
-      <div class="col-12 col-lg-4">
-        <a class="btn btn-outline-secondary btn-sm" href="/blog/other-installation-methods/"
-          >Read more&nbsp;&raquo;</a
-        >
-      </div>
-    </div>
-  </footer>
+  <div class="blog-card-footer">
+    <a href="/blog/other-installation-methods/" class="blog-read-more">Read More</a>
+  </div>
 </article>
-
-            </div>
           
         </div>
-      
-    
-  </section>
+      </div>
+    </div>
+  </div>
 </div>
 
     </main>

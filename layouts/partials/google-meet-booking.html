@@ -1,0 +1,178 @@
+<!-- Google Meet Booking Widget -->
+<div class="google-meet-booking">
+  <!-- Sign In Button (shown when not authenticated) -->
+  <div id="google-sign-in" class="text-center mb-4" style="display: none;">
+    <h5>📹 Schedule a Google Meet</h5>
+    <p class="text-muted">Sign in with Google to schedule a meeting</p>
+    <button type="button" class="btn btn-primary">
+      <i class="fab fa-google me-2"></i>Sign in with Google
+    </button>
+  </div>
+
+  <!-- Booking Form (shown when authenticated) -->
+  <div id="meet-booking-form" style="display: none;">
+    <div class="card">
+      <div class="card-header">
+        <h5 class="mb-0">📹 Schedule Google Meet</h5>
+      </div>
+      <div class="card-body">
+        <form id="google-meet-form">
+          <div class="row">
+            <!-- Meeting Title -->
+            <div class="col-md-6 mb-3">
+              <label for="meeting-title" class="form-label">Meeting Title</label>
+              <input type="text" class="form-control" id="meeting-title" name="meeting-title" 
+                     value="Meeting with Raul" required>
+            </div>
+            
+            <!-- Duration -->
+            <div class="col-md-6 mb-3">
+              <label for="duration" class="form-label">Duration</label>
+              <select class="form-select" id="duration" name="duration" required>
+                <option value="15">15 minutes</option>
+                <option value="30" selected>30 minutes</option>
+                <option value="45">45 minutes</option>
+                <option value="60">1 hour</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- Date -->
+            <div class="col-md-6 mb-3">
+              <label for="meeting-date" class="form-label">Date</label>
+              <input type="date" class="form-control" id="meeting-date" name="meeting-date" 
+                     min="" required>
+            </div>
+            
+            <!-- Time -->
+            <div class="col-md-6 mb-3">
+              <label for="meeting-time" class="form-label">Time</label>
+              <select class="form-select" id="meeting-time" name="meeting-time" required>
+                <option value="">Select time...</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Your Email -->
+          <div class="mb-3">
+            <label for="attendee-email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="attendee-email" name="attendee-email" 
+                   placeholder="your.email@example.com" required>
+          </div>
+
+          <!-- Meeting Description -->
+          <div class="mb-3">
+            <label for="meeting-description" class="form-label">Meeting Description (Optional)</label>
+            <textarea class="form-control" id="meeting-description" name="meeting-description" 
+                      rows="3" placeholder="What would you like to discuss?"></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="d-grid">
+            <button type="submit" class="btn btn-success">
+              <i class="fas fa-video me-2"></i>Create Google Meet
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success/Error Messages -->
+  <div id="booking-messages" class="mt-3"></div>
+</div>
+
+<style>
+.google-meet-booking {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.google-meet-booking .card {
+  border: 1px solid #e3f2fd;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.google-meet-booking .card-header {
+  background: linear-gradient(135deg, #4285f4 0%, #34a853 100%);
+  color: white;
+  border-bottom: none;
+}
+
+.google-meet-booking .btn-primary {
+  background: linear-gradient(135deg, #4285f4 0%, #34a853 100%);
+  border: none;
+  padding: 0.75rem 2rem;
+}
+
+.google-meet-booking .btn-primary:hover {
+  background: linear-gradient(135deg, #3367d6 0%, #2e7d32 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.google-meet-booking .btn-success {
+  background: linear-gradient(135deg, #34a853 0%, #4285f4 100%);
+  border: none;
+  padding: 0.75rem;
+  font-weight: 500;
+}
+
+.google-meet-booking .btn-success:hover {
+  background: linear-gradient(135deg, #2e7d32 0%, #3367d6 100%);
+  transform: translateY(-1px);
+}
+
+.alert-success {
+  background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+  border-color: #34a853;
+  color: #155724;
+}
+
+.alert-danger {
+  background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+  border-color: #ea4335;
+  color: #721c24;
+}
+</style>
+
+<script>
+// Set minimum date to today
+document.addEventListener('DOMContentLoaded', function() {
+  const dateInput = document.getElementById('meeting-date');
+  if (dateInput) {
+    const today = new Date().toISOString().split('T')[0];
+    dateInput.min = today;
+    dateInput.value = today;
+  }
+
+  // Update time slots when date changes
+  dateInput?.addEventListener('change', function() {
+    updateTimeSlots(this.value);
+  });
+
+  function updateTimeSlots(date) {
+    const timeSelect = document.getElementById('meeting-time');
+    const meetBooking = window.GoogleMeetBooking;
+    
+    if (timeSelect && meetBooking) {
+      // Clear existing options
+      timeSelect.innerHTML = '<option value="">Select time...</option>';
+      
+      // Generate new time slots
+      const slots = meetBooking.prototype.generateTimeSlots(date);
+      slots.forEach(slot => {
+        const option = document.createElement('option');
+        option.value = slot.time;
+        option.textContent = slot.display;
+        timeSelect.appendChild(option);
+      });
+    }
+  }
+
+  // Initialize time slots for today
+  const today = new Date().toISOString().split('T')[0];
+  updateTimeSlots(today);
+});
+</script> 

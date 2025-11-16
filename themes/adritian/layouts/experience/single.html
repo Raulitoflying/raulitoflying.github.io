@@ -65,4 +65,29 @@
     </div>
   </div>
 </section>
+<style>
+  .job-card {
+    border-radius: 12px;
+    border-left: 4px solid #5f9c9c;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    color: #2c3e50;
+  }
+
+  .job-card .job-card__location,
+  .job-card .job-card__dates {
+    color: #6c757d;
+  }
+
+  [data-bs-theme="dark"] .job-card {
+    background: #1f252d;
+    color: #e2e8f0;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+  }
+
+  [data-bs-theme="dark"] .job-card .job-card__location,
+  [data-bs-theme="dark"] .job-card .job-card__dates {
+    color: #a0aec0;
+  }
+</style>
 {{ end }}

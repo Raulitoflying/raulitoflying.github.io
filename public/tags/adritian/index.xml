@@ -6,21 +6,28 @@
     <description>Recent content in Adritian on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Feb 2025 14:38:33 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 10:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/adritian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Icons</title>
+      <link>http://localhost:1313/blog/icons/</link>
+      <pubDate>Fri, 28 Feb 2025 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/icons/</guid>
+      <description>&lt;p&gt;The theme has multiple icons available for use. From social media icons like Twitter and LinkedIn to utility icons like download and circle-info, you&amp;rsquo;ll find a comprehensive set of icons ready to enhance your content.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Theme shortcodes</title>
       <link>http://localhost:1313/blog/shortcodes/</link>
       <pubDate>Fri, 14 Feb 2025 14:38:33 +0200</pubDate>
       <guid>http://localhost:1313/blog/shortcodes/</guid>
-      <description>&lt;p&gt;Shortcodes are a convenient &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;functionality of Hugo&lt;/a&gt;, allowing you to embed templates or layouts within other content.&lt;/p&gt;&#xA;&lt;p&gt;Some of the example built-in shortcodes are Instagram posts, YouTube videos, QR codes, etc. You can find &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#embedded&#34;&gt;the full list in the official docs&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The theme provides custom shortcodes to allow you to customize your landing page as you want:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;education-list&lt;/code&gt;: Displays a list of educational qualifications.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;experience-list&lt;/code&gt;: Shows a list of professional experiences.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;platform-links&lt;/code&gt;: Embeds links to various platforms with icons.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;newsletter-section&lt;/code&gt;: Adds a section for newsletter subscription.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;link&lt;/code&gt;: Creates a hyperlink with an icon.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;experience-section&lt;/code&gt;: Inserts a detailed experience section.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;contact-section&lt;/code&gt;: Adds a contact information section, with a customizable form and information.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;client-and-work-section&lt;/code&gt;: Displays a section for clients and work.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;about-section&lt;/code&gt;: About section, with image, buttons for call to action and image.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;testimonial-section&lt;/code&gt;: Adds references from customers, colleagues, etc.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;showcase&lt;/code&gt;:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The shortcodes can be customized with different arguments:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Shortcodes are a convenient functionality of Hugo, allowing you to embed templates or layouts within other content. The theme provides custom shortcodes like education-list, experience-list, platform-links, newsletter-section, and more to help you customize your landing page exactly as you want.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Create your own version of the site</title>
       <link>http://localhost:1313/blog/getting-started/</link>
       <pubDate>Tue, 11 Feb 2025 14:38:33 +0200</pubDate>
       <guid>http://localhost:1313/blog/getting-started/</guid>
-      <description>&lt;p&gt;This article is a guide to help you create your own version of the site using &lt;a href=&#34;https://github.com/zetxek/adritian-free-hugo-theme&#34;&gt;Adritian&lt;/a&gt;. It will cover the main steps to get started with the theme, and how to customize it to your needs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;creating-a-site&#34;&gt;Creating a site&lt;/h3&gt;&#xA;&lt;p&gt;This theme is for the content management system &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, so that will be a pre-requirement.&#xA;Make sure that you install the &lt;code&gt;extended&lt;/code&gt; version of Hugo, as the theme uses SCSS for styling, as well as image optimization.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This article is a guide to help you create your own version of the site using Adritian. It will cover the main steps to get started with the theme, how to customize it to your needs, and publish your site to the web.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Other installation methods</title>

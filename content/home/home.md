@@ -8,7 +8,7 @@ draft = false
 {{< showcase-section
     title="Yixiang Zhou"
     subtitle="Software & Data Engineer | IT Support | NLP & Policy Analysis"
-    description="🎓 I'm a New Graduate Master's student in Computer Science at Northeastern University with a passion for software development, data analysis, and IT support. I thrive at the intersection of code and communication — building reliable systems and helping users solve complex issues."
+    description="💼 Currently working as a Technical Support Engineer at Optix, providing AI solutions and technical support to clients. I recently graduated with a Master's degree in Computer Science from Northeastern University, specializing in software development, data analysis, and IT support. I thrive at the intersection of code and communication — building reliable systems and helping users solve complex issues."
     imgSrc="images/showcase/showcase.png"
     imgScale="0.3"
  >}}
@@ -47,9 +47,21 @@ draft = false
     button3_icon="icon-download"
 >}}
 
+{{< publications-section
+    title="Publications"
+    intro_title=""
+    intro_description="My research focuses on Natural Language Processing and Large Language Models, particularly in the domain of political stance detection and text classification."
+    button1_text="Google Scholar"
+    button1_url="https://scholar.google.com/citations?user=zsnlhaUAAAAJ&hl=en"
+    button1_icon="icon-user"
+    button2_text="ACL Anthology"
+    button2_url="https://aclanthology.org/people/y/yixiang-zhou/"
+    button2_icon="icon-square-arrow-up-right"
+>}}
+
 {{< projects-section
     title="Projects"
-    intro_title="My Work"
+    intro_title=""
     intro_description="Here's a selection of my recent projects showcasing different skills and technologies. Each project demonstrates my approach to problem-solving and technical implementation."
     button1_text="GitHub"
     button1_url="https://github.com/Raulitoflying"
@@ -74,7 +86,7 @@ draft = false
     contact_email_email="raulchou716@gmail.com"
     contact_address_title="Location"
     contact_address_address="🇨🇦 Vancouver, BC, Canada"
-    form_action="https://formspree.io/f/mail@example.com"
+    form_action="https://formspree.io/f/mgvkeglz"
     form_method="POST"
 >}}
 
@@ -85,7 +97,10 @@ draft = false
     newsletter_success_message="Thank you for subscribing!"
     newsletter_error_message="Something went wrong, please try again."
     newsletter_note="I respect your privacy and won't share your data."
-    form_action="/"
+    form_action="https://formspree.io/f/mrbqgnao"
     form_method="POST"
+    form_name="email"
+    form_id="newsletter-form"
+    input_name="email"
 >}}
 

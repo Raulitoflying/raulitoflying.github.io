@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on </title>
+    <link>http://localhost:1313/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Oct 2023 10:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with LangChain for NLP Projects</title>
+      <link>http://localhost:1313/blog/langchain-tutorial/</link>
+      <pubDate>Sun, 15 Oct 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/langchain-tutorial/</guid>
+      <description>&lt;h1 id=&#34;getting-started-with-langchain-for-nlp-projects&#34;&gt;Getting Started with LangChain for NLP Projects&lt;/h1&gt;&#xA;&lt;p&gt;LangChain has emerged as a powerful framework for developing applications powered by language models. In this article, I&amp;rsquo;ll share my experience working with LangChain for building NLP-based classification pipelines, covering key components and practical examples.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

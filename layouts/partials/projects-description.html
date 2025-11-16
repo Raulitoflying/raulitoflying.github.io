@@ -132,7 +132,9 @@
 
 <div class="container-experience">
   <div class="row">
+    {{ if $introTitle }}
     <h2>{{ $introTitle }}</h2>
+    {{ end }}
     <div class="lead">{{ $introDescription }}</div>
   </div>
 

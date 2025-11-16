@@ -10664,21 +10664,13 @@ ul.tags {
   ul.tags li {
     position: relative;
     display: inline-block;
-    padding: 0.4em 1.2em 0.4em 1.6em;
-    background-color: white;
-    color: #333;
+    padding: 0.4em 1em;
+    background-color: #4f7c7c;
+    color: #ffffff;
     font-size: 0.9rem;
-    border-radius: 0.25rem; }
+    border-radius: 1rem; }
     ul.tags li::before {
-      content: "";
-      position: absolute;
-      left: 0.4em;
-      top: 50%;
-      transform: translateY(-50%) rotate(45deg);
-      width: 0.6em;
-      height: 0.6em;
-      background-color: #f5f5f5;
-      border-radius: 2px; }
+      content: none; }
 
 #blog-single a {
   color: #478079; }
@@ -10981,17 +10973,30 @@ body.home div.experience {
 
 .job-card {
   padding: 1.5rem;
-  border-radius: 8px;
+  border-radius: 12px;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+  border-left: 4px solid #5f9c9c;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  color: #2c3e50; }
+  .job-card .experience__title,
+  .job-card .experience__company,
+  .job-card .experience__date,
+  .job-card .experience__location,
+  .job-card .job-card__location,
+  .job-card .job-card__dates {
+    color: #2c3e50; }
   html[data-bs-theme="dark"] .job-card {
-    background-color: #2d2d2d;
-    color: white; }
+    background-color: #1f252d;
+    border-left-color: #5f9c9c;
+    color: #e2e8f0;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35); }
     html[data-bs-theme="dark"] .job-card .experience__title,
     html[data-bs-theme="dark"] .job-card .experience__company,
     html[data-bs-theme="dark"] .job-card .experience__date,
-    html[data-bs-theme="dark"] .job-card .experience__location {
-      color: white; }
+    html[data-bs-theme="dark"] .job-card .experience__location,
+    html[data-bs-theme="dark"] .job-card .job-card__location,
+    html[data-bs-theme="dark"] .job-card .job-card__dates {
+      color: #d9e2ec; }
 
 .company-logo {
   object-fit: contain; }
@@ -11427,6 +11432,55 @@ footer_links .nav-item .nav-link::after {
 
 /* end dark mode */
 /* 自定义样式 - 将图片向右移动 */
+/* 增加showcase区域标题和副标题之间的间距 */
+.rad-showcase h1.display-1, .rad-showcase .display-1.h1 {
+  line-height: 1.4 !important;
+  margin-bottom: 1.5rem !important; }
+
+.rad-showcase h1.display-1 span, .rad-showcase .display-1.h1 span {
+  display: inline-block;
+  margin-top: 1rem !important; }
+
+/* 增加showcase区域副标题和描述文字之间的间距 */
+.rad-showcase .lead {
+  margin-top: 1.5rem !important;
+  line-height: 1.8 !important; }
+
+/* 增加About Me部分的标题和内容间距 */
+#about h2, #about .h2 {
+  margin-bottom: 2rem !important; }
+
+/* 增加About Me部分各段落之间的间距 */
+#about .about-me p {
+  margin-bottom: 1.5rem !important; }
+
+#about .about-me.lead {
+  line-height: 1.8 !important; }
+
+/* 增加Professional Experience部分Introduction标题和内容间距 */
+.section-experience h2, .section-experience .h2 {
+  margin-bottom: 2rem !important; }
+
+.section-experience .container-experience h2, .section-experience .container-experience .h2 {
+  margin-bottom: 1.5rem !important; }
+
+.section-experience .lead {
+  line-height: 1.8 !important; }
+
+/* 增加Projects部分描述文字的行高 */
+#projects .lead {
+  line-height: 1.8 !important; }
+
+/* 增加Publications部分的样式和间距 */
+.section-publications h2, .section-publications .h2 {
+  margin-bottom: 2rem !important; }
+
+.section-publications .container-experience h2, .section-publications .container-experience .h2 {
+  margin-bottom: 1.5rem !important; }
+
+.section-publications .lead {
+  line-height: 1.8 !important; }
+
 /* 覆盖默认的image-left-overflow样式 */
 .section div[class*="col-"] img.image-left-overflow {
   margin-left: 30px !important;
@@ -11477,3 +11531,106 @@ footer_links .nav-item .nav-link::after {
 #content .data-analyst-intern + .key-accomplishments,
 #content .business-analyst-intern + .key-accomplishments {
   margin-top: 3rem !important; }
+
+/*统一博客列表和归档页面的标签样式*/
+.blog-tag {
+  background: #4f7c7c !important;
+  color: #ffffff !important;
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem; }
+
+.blog-tag:hover {
+  background: #3c5f5f !important;
+  color: #ffffff !important; }
+
+/* 移除单篇文章元信息中的标签背景块 */
+ul.tags li {
+  background: transparent !important;
+  padding: 0 !important; }
+
+ul.tags li::before {
+  content: none !important; }
+
+[data-bs-theme="light"] .blog-card,
+[data-bs-theme="light"] .job-card,
+[data-bs-theme="light"] .project-card,
+.job-card,
+.project-card {
+  background: #ffffff;
+  border-left: 4px solid #5f9c9c;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  color: #2c3e50; }
+
+[data-bs-theme="light"] .job-card__location,
+[data-bs-theme="light"] .job-card__dates,
+.job-card__location,
+.job-card__dates {
+  color: #6c757d; }
+
+[data-bs-theme="dark"] .blog-card {
+  background: #1f252d !important;
+  border-color: #4f7c7c !important; }
+
+[data-bs-theme="dark"] .blog-card-title a,
+[data-bs-theme="dark"] .blog-card-title a:hover,
+[data-bs-theme="dark"] .blog-meta,
+[data-bs-theme="dark"] .blog-summary,
+[data-bs-theme="dark"] .blog-summary *,
+[data-bs-theme="dark"] .blog-description {
+  color: #e2e8f0 !important; }
+
+[data-bs-theme="dark"] .blog-read-more {
+  background: #4f7c7c !important;
+  color: #ffffff !important; }
+
+[data-bs-theme="dark"] #blog-single .blog-content,
+[data-bs-theme="dark"] #blog-single .blog-content *,
+[data-bs-theme="dark"] #blog-single #meta section {
+  color: #d9e2ec !important; }
+
+[data-bs-theme="dark"] #blog-single .blog-content h1, [data-bs-theme="dark"] #blog-single .blog-content .h1,
+[data-bs-theme="dark"] #blog-single .blog-content h2,
+[data-bs-theme="dark"] #blog-single .blog-content .h2,
+[data-bs-theme="dark"] #blog-single .blog-content h3,
+[data-bs-theme="dark"] #blog-single .blog-content .h3,
+[data-bs-theme="dark"] #blog-single .blog-content h4,
+[data-bs-theme="dark"] #blog-single .blog-content .h4,
+[data-bs-theme="dark"] #blog-single .blog-content h5,
+[data-bs-theme="dark"] #blog-single .blog-content .h5,
+[data-bs-theme="dark"] #blog-single .blog-content h6,
+[data-bs-theme="dark"] #blog-single .blog-content .h6 {
+  color: #f7fafc !important;
+  border-color: #4f7c7c !important; }
+
+[data-bs-theme="dark"] #blog-single .blog-content blockquote {
+  color: #a0aec0 !important;
+  border-left-color: #4f7c7c !important; }
+
+[data-bs-theme="dark"] .job-card,
+[data-bs-theme="dark"] .project-card {
+  background: #1f252d;
+  border-left: 4px solid #5f9c9c;
+  color: #e2e8f0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35); }
+
+[data-bs-theme="dark"] .job-card .job-card__location,
+[data-bs-theme="dark"] .job-card .job-card__dates {
+  color: #a0aec0; }
+
+[data-bs-theme="dark"] .section-header {
+  color: #e2e8f0 !important; }
+
+[data-bs-theme="dark"] .accomplishment-item,
+[data-bs-theme="dark"] .technology-item {
+  background: #1f252d !important;
+  color: #e2e8f0 !important;
+  border-color: #4f7c7c !important; }
+
+[data-bs-theme="dark"] .accomplishment-item p,
+[data-bs-theme="dark"] .technology-item p {
+  color: #e2e8f0 !important; }
+
+[data-bs-theme="dark"] .accomplishment-item strong,
+[data-bs-theme="dark"] .technology-item strong {
+  color: #f7fafc !important; }

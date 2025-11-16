@@ -1574,22 +1574,14 @@ ul.tags {
     li {
         position: relative;
         display: inline-block;
-        padding: 0.4em 1.2em 0.4em 1.6em;
-        background-color: white;
-        color: #333;
+        padding: 0.4em 1em;
+        background-color: #4f7c7c;
+        color: #ffffff;
         font-size: 0.9rem;
-        border-radius: 0.25rem;
+        border-radius: 1rem;
 
         &::before {
-            content: "";
-            position: absolute;
-            left: 0.4em;
-            top: 50%;
-            transform: translateY(-50%) rotate(45deg);
-            width: 0.6em;
-            height: 0.6em;
-            background-color: #f5f5f5;
-            border-radius: 2px;
+            content: none;
         }
     }
 }

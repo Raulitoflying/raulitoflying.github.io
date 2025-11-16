@@ -3,6 +3,10 @@ title = "Raulitoflying"
 languageCode = "en"
 theme = "adritian"
 
+[taxonomies]
+category = "categories"
+tag = "tags"
+
 [markup.goldmark.renderer]
 unsafe = true
 
@@ -115,9 +119,13 @@ name = 'Projects'
 URL = '#projects'
 weight = 4
 [[menus.header]]
+name = 'Blog'
+URL = '/blog'
+weight = 5
+[[menus.header]]
 name = "Contact"
 URL = "#contact"
-weight = 5
+weight = 6
 
 [languages]
 [languages.en]
@@ -146,9 +154,13 @@ name = 'Projects'
 URL = '#projects'
 weight = 4
 [[languages.en.menus.header]]
+name = 'Blog'
+URL = '/blog'
+weight = 5
+[[languages.en.menus.header]]
 name = "Contact"
 URL = "#contact"
-weight = 5
+weight = 6
 
 
 [languages.es]
@@ -271,6 +283,8 @@ weight = 4
 URL = "css/custom.css"
 [[params.plugins.css]]
 URL = "css/adritian-icons.css"
+[[params.plugins.css]]
+URL = "css/blog-categories.css"
 ## Print css
 [[params.plugins.css]]
 URL = "css/bootstrap-print.css"

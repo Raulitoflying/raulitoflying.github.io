@@ -36,8 +36,7 @@
 <meta property="og:url" content="http://localhost:1313/projects/healthcare-system/">
   <meta property="og:site_name" content="Raulitoflying">
   <meta property="og:title" content="Healthcare Management System">
-  <meta property="og:description" content="Reference Link: Reference Link
-Key Accomplishments: Architected a secure healthcare platform with Spring Boot and React/Vite, implementing RESTful API principles and ACID transactions in MongoDB to manage 500&#43; medical records and 1000&#43; appointments monthly with guaranteed data consistency. Engineered JWT-based authentication with OAuth2 Resource Server and role-based access control, ensuring HIPAA-compliant data protection while providing specialized interfaces for doctors, patients, and administrators. Leveraged Vite’s development tools to accelerate build times by 78% (45s to 10s), resulting in improved developer productivity and sub-second rendering performance for end users. Technologies Used: Spring Boot: Backend framework for API development React/Vite: Frontend UI framework with optimized build tools MongoDB: NoSQL database with ACID transaction support JWT Security: Authentication and authorization OAuth2 Resource Server: Secure identity management RBAC: Role-based access control system React Router: Client-side routing Redux Toolkit: State management This healthcare management system offers a comprehensive solution for medical facilities, with HIPAA-compliant security, efficient appointment scheduling, and specialized user interfaces for all stakeholders in the healthcare ecosystem.">
+  <meta property="og:description" content="View on GitHub Key Accomplishments Architected a secure healthcare platform with Spring Boot and React/Vite, implementing RESTful API principles and ACID transactions in MongoDB to manage 500&#43; medical records and 1000&#43; appointments monthly with guaranteed data consistency.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projects">
@@ -99,6 +98,11 @@ Key Accomplishments: Architected a secure healthcare platform with Spring Boot a
             <li class="nav-item">
               <a data-scroll class="nav-link" href="/#projects"
                 >PROJECTS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/blog"
+                >BLOG</a
               >
             </li>
             <li class="nav-item">
@@ -287,14 +291,21 @@ Key Accomplishments: Architected a secure healthcare platform with Spring Boot a
         </div>
          
         <div class="experience " >
-          <a href="/projects/kanhas-web/">
+          <a href="/projects/kanbas-web/">
             
             
             
-              <div class="experience__header no-company-logo">
+              
+            <div class="experience__header with-company-logo">
+              <img
+                src="/images/works/kanbas-web_hu_f8160896b8ed85e.webp"
+                alt=" logo"
+                class="experience__company-logo"
+                loading="lazy"
+              >
               
               <div class="experience__meta">
-                <div class="experience__title">Kanhas Web Application</div>
+                <div class="experience__title">Kanbas Web Application</div>
                 <div class="experience__company">Full stack Web Project. <span class="experience__location">
                   Vancouver, BC</span></div>
               </div>
@@ -320,36 +331,149 @@ Key Accomplishments: Architected a secure healthcare platform with Spring Boot a
         </div>
         
         <h1>Healthcare Management System</h1>
-        <div style="margin-bottom: 40px;"></div>
-<div style="margin-bottom: 40px;"></div>
-<h4 id="reference-link">Reference Link:</h4>
-<div style="margin-bottom: 40px;"></div>
-<p><a href="https://github.com/Raulitoflying/dbms-healthcare">Reference Link</a></p>
-<div style="margin-bottom: 40px;"></div>
-<h4 id="key-accomplishments">Key Accomplishments:</h4>
-<ul>
-<li>Architected a secure healthcare platform with Spring Boot and React/Vite, implementing <strong>RESTful API principles</strong> and <strong>ACID</strong> transactions in MongoDB to manage <strong>500+</strong> medical records and <strong>1000+</strong> appointments monthly with guaranteed data consistency.</li>
-<li>Engineered JWT-based authentication with OAuth2 Resource Server and <strong>role-based access control</strong>, ensuring <strong>HIPAA-compliant</strong> data protection while providing specialized interfaces for doctors, patients, and administrators.</li>
-<li>Leveraged Vite&rsquo;s development tools to accelerate build times by <strong>78% (45s to 10s)</strong>, resulting in improved developer productivity and sub-second rendering performance for end users.</li>
-</ul>
-<div style="margin-bottom: 40px;"></div>
-<h4 id="technologies-used">Technologies Used:</h4>
-<ul>
-<li><strong>Spring Boot</strong>: Backend framework for API development</li>
-<li><strong>React/Vite</strong>: Frontend UI framework with optimized build tools</li>
-<li><strong>MongoDB</strong>: NoSQL database with ACID transaction support</li>
-<li><strong>JWT Security</strong>: Authentication and authorization</li>
-<li><strong>OAuth2 Resource Server</strong>: Secure identity management</li>
-<li><strong>RBAC</strong>: Role-based access control system</li>
-<li><strong>React Router</strong>: Client-side routing</li>
-<li><strong>Redux Toolkit</strong>: State management</li>
-</ul>
-<p>This healthcare management system offers a comprehensive solution for medical facilities, with HIPAA-compliant security, efficient appointment scheduling, and specialized user interfaces for all stakeholders in the healthcare ecosystem.</p>
+        <style>
+.project-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
 
+.accomplishments-section {
+  margin-bottom: 3rem;
+}
+
+.section-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.accomplishment-item {
+  background: #f8f9fa;
+  border-left: 4px solid #5f9c9c;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0 8px 8px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+  border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+  margin: 0;
+  line-height: 1.7;
+  color: #34495e;
+  font-size: 0.98rem;
+}
+
+.reference-link {
+  display: inline-block;
+  background: #5f9c9c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+  background: #4a7c7c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .accomplishment-item {
+    padding: 1rem;
+  }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+  color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+  background: #f8f9fa !important;
+  color: #34495e !important;
+}
+
+.accomplishment-item p {
+  color: #34495e !important;
+}
+
+.accomplishment-item strong {
+  color: #2c3e50 !important;
+}
+</style>
+<div class="project-content">
+<a href="https://github.com/Raulitoflying/dbms-healthcare" target="_blank" rel="noopener noreferrer" class="reference-link">
+  View on GitHub
+</a>
+<div class="accomplishments-section">
+<div class="section-header">Key Accomplishments</div>
+<div class="accomplishment-item">
+<p>Architected a secure healthcare platform with Spring Boot and React/Vite, implementing <strong>RESTful API principles</strong> and <strong>ACID</strong> transactions in MongoDB to manage <strong>500+</strong> medical records and <strong>1000+</strong> appointments monthly with guaranteed data consistency.</p>
+</div>
+<div class="accomplishment-item">
+<p>Engineered JWT-based authentication with OAuth2 Resource Server and <strong>role-based access control</strong>, ensuring <strong>HIPAA-compliant</strong> data protection while providing specialized interfaces for doctors, patients, and administrators.</p>
+</div>
+<div class="accomplishment-item">
+<p>Leveraged Vite's development tools to accelerate build times by <strong>78% (45s to 10s)</strong>, resulting in improved developer productivity and sub-second rendering performance for end users.</p>
+</div>
+</div>
+<div class="section-header">Technologies Used</div>
+<div class="accomplishment-item">
+<p>Spring Boot, React/Vite</p>
+</div>
+<div class="accomplishment-item">
+<p>MongoDB, ACID transactions</p>
+</div>
+<div class="accomplishment-item">
+<p>JWT Security, OAuth2 Resource Server</p>
+</div>
+<div class="accomplishment-item">
+<p>RBAC, React Router, Redux Toolkit</p>
+</div>
+</div>
       </div>
     </div>
   </div>
 </section>
+<style>
+  .job-card {
+    border-radius: 12px;
+    border-left: 4px solid #5f9c9c;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    color: #2c3e50;
+  }
+
+  .job-card .job-card__location,
+  .job-card .job-card__dates {
+    color: #6c757d;
+  }
+
+  [data-bs-theme="dark"] .job-card {
+    background: #1f252d;
+    color: #e2e8f0;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+  }
+
+  [data-bs-theme="dark"] .job-card .job-card__location,
+  [data-bs-theme="dark"] .job-card .job-card__dates {
+    color: #a0aec0;
+  }
+</style>
 
     </main>
 

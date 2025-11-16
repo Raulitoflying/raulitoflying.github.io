@@ -1,0 +1,28 @@
+<article class="blog-card">
+  <div class="blog-card-header">
+    <h2 class="blog-card-title">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+
+    <div class="blog-meta">
+      <span class="blog-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <span class="blog-wordcount">{{ .WordCount }} words</span>
+    </div>
+
+    {{ with .GetTerms "tags" }}
+    <div class="blog-tags">
+      {{ range . }}
+      <a href="{{ .RelPermalink }}" class="blog-tag">{{ .LinkTitle }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="blog-summary">
+    {{ .Summary }}
+  </div>
+
+  <div class="blog-card-footer">
+    <a href="{{ .RelPermalink }}" class="blog-read-more">Read More</a>
+  </div>
+</article>

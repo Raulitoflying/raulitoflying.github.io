@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on </title>
+    <link>http://localhost:1313/tags/cloud/</link>
+    <description>Recent content in Cloud on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Jan 2024 10:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploying Applications to AWS and Azure</title>
+      <link>http://localhost:1313/blog/cloud-deployment/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/cloud-deployment/</guid>
+      <description>&lt;h1 id=&#34;deploying-applications-to-aws-and-azure&#34;&gt;Deploying Applications to AWS and Azure&lt;/h1&gt;&#xA;&lt;p&gt;Cloud deployment has become a standard practice for modern applications. In this article, I&amp;rsquo;ll compare deployment strategies on two major cloud platforms: AWS and Azure, covering key services, deployment automation, cost optimization strategies, and security best practices.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

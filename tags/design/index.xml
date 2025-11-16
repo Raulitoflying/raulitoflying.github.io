@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on </title>
+    <link>http://localhost:1313/tags/design/</link>
+    <description>Recent content in Design on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Feb 2025 10:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Icons</title>
+      <link>http://localhost:1313/blog/icons/</link>
+      <pubDate>Fri, 28 Feb 2025 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/icons/</guid>
+      <description>&lt;p&gt;The theme has multiple icons available for use. From social media icons like Twitter and LinkedIn to utility icons like download and circle-info, you&amp;rsquo;ll find a comprehensive set of icons ready to enhance your content.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

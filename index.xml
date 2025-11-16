@@ -1,632 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://raulitoflying.github.io/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 28 Feb 2025 08:05:05 +0100</lastBuildDate><atom:link href="https://raulitoflying.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Icons</title><link>https://raulitoflying.github.io/blog/icons/</link><pubDate>Fri, 28 Feb 2025 08:05:05 +0100</pubDate><guid>https://raulitoflying.github.io/blog/icons/</guid><description>&lt;p>The theme has multiple icons available for use.&lt;/p>
-&lt;p>You can see them rendered here:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>threads&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="threads"
- >&lt;i class="icon-threads">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>bluesky&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="bluesky"
- >&lt;i class="icon-bluesky">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>x-twitter&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="x-twitter"
- >&lt;i class="icon-x-twitter">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>email&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="email"
- >&lt;i class="icon-email">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>user&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="user"
- >&lt;i class="icon-user">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>table-list&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="table-list"
- >&lt;i class="icon-table-list">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>download&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="download"
- >&lt;i class="icon-download">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>circle-info&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="circle-info"
- >&lt;i class="icon-circle-info">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>square-twitter&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="square-twitter"
- >&lt;i class="icon-square-twitter">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>square-facebook&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="square-facebook"
- >&lt;i class="icon-square-facebook">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>linkedin&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="linkedin"
- >&lt;i class="icon-linkedin">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>square-github&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="square-github"
- >&lt;i class="icon-square-github">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>circle-arrow-left&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="circle-arrow-left"
- >&lt;i class="icon-circle-arrow-left">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>circle-arrow-right&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="circle-arrow-right"
- >&lt;i class="icon-circle-arrow-right">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>circle-arrow-up&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="circle-arrow-up"
- >&lt;i class="icon-circle-arrow-up">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>circle-arrow-down&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="circle-arrow-down"
- >&lt;i class="icon-circle-arrow-down">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>quote-left&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="quote-left"
- >&lt;i class="icon-quote-left">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>face-smile&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="face-smile"
- >&lt;i class="icon-face-smile">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>square-arrow-up-right&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="square-arrow-up-right"
- >&lt;i class="icon-square-arrow-up-right">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>youtube&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="youtube"
- >&lt;i class="icon-youtube">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>square-xing&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="square-xing"
- >&lt;i class="icon-square-xing">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>instagram&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="instagram"
- >&lt;i class="icon-instagram">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>dribbble&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="dribbble"
- >&lt;i class="icon-dribbble">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>behance&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="behance"
- >&lt;i class="icon-behance">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>file-pdf&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="file-pdf"
- >&lt;i class="icon-file-pdf">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>codepen&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="codepen"
- >&lt;i class="icon-codepen">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>yelp&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="yelp"
- >&lt;i class="icon-yelp">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>cloud-arrow-down&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="cloud-arrow-down"
- >&lt;i class="icon-cloud-arrow-down">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>medium&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="medium"
- >&lt;i class="icon-medium">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>stack-overflow&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="stack-overflow"
- >&lt;i class="icon-stack-overflow">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;li>&lt;code>meetup&lt;/code>: 
- 
-&lt;a
- href="https://example.com"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="meetup"
- >&lt;i class="icon-meetup">&lt;/i
->&lt;/a>
-&lt;/li>
-&lt;/ul>
-&lt;p>Do you need more icons?
-You can check this github issue to check how to &lt;a href="https://github.com/zetxek/adritian-free-hugo-theme/pull/169">add your own&lt;/a>, or if it&amp;rsquo;s relevant for the community you can request one &lt;a href="https://github.com/zetxek/adritian-free-hugo-theme/issues/168">via the issue tracker like @klangborste did&lt;/a>.&lt;/p></description></item><item><title>Theme shortcodes</title><link>https://raulitoflying.github.io/blog/shortcodes/</link><pubDate>Fri, 14 Feb 2025 14:38:33 +0200</pubDate><guid>https://raulitoflying.github.io/blog/shortcodes/</guid><description>&lt;p>Shortcodes are a convenient &lt;a href="https://gohugo.io/content-management/shortcodes/">functionality of Hugo&lt;/a>, allowing you to embed templates or layouts within other content.&lt;/p>
-&lt;p>Some of the example built-in shortcodes are Instagram posts, YouTube videos, QR codes, etc. You can find &lt;a href="https://gohugo.io/content-management/shortcodes/#embedded">the full list in the official docs&lt;/a>.&lt;/p>
-&lt;p>The theme provides custom shortcodes to allow you to customize your landing page as you want:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>education-list&lt;/code>: Displays a list of educational qualifications.&lt;/li>
-&lt;li>&lt;code>experience-list&lt;/code>: Shows a list of professional experiences.&lt;/li>
-&lt;li>&lt;code>platform-links&lt;/code>: Embeds links to various platforms with icons.&lt;/li>
-&lt;li>&lt;code>newsletter-section&lt;/code>: Adds a section for newsletter subscription.&lt;/li>
-&lt;li>&lt;code>link&lt;/code>: Creates a hyperlink with an icon.&lt;/li>
-&lt;li>&lt;code>experience-section&lt;/code>: Inserts a detailed experience section.&lt;/li>
-&lt;li>&lt;code>contact-section&lt;/code>: Adds a contact information section, with a customizable form and information.&lt;/li>
-&lt;li>&lt;code>client-and-work-section&lt;/code>: Displays a section for clients and work.&lt;/li>
-&lt;li>&lt;code>about-section&lt;/code>: About section, with image, buttons for call to action and image.&lt;/li>
-&lt;li>&lt;code>testimonial-section&lt;/code>: Adds references from customers, colleagues, etc.&lt;/li>
-&lt;li>&lt;code>showcase&lt;/code>:&lt;/li>
-&lt;/ul>
-&lt;p>The shortcodes can be customized with different arguments:&lt;/p></description></item><item><title>Create your own version of the site</title><link>https://raulitoflying.github.io/blog/getting-started/</link><pubDate>Tue, 11 Feb 2025 14:38:33 +0200</pubDate><guid>https://raulitoflying.github.io/blog/getting-started/</guid><description>&lt;p>This article is a guide to help you create your own version of the site using &lt;a href="https://github.com/zetxek/adritian-free-hugo-theme">Adritian&lt;/a>. It will cover the main steps to get started with the theme, and how to customize it to your needs.&lt;/p>
-&lt;h3 id="creating-a-site">Creating a site&lt;/h3>
-&lt;p>This theme is for the content management system &lt;a href="https://gohugo.io/">Hugo&lt;/a>, so that will be a pre-requirement.
-Make sure that you install the &lt;code>extended&lt;/code> version of Hugo, as the theme uses SCSS for styling, as well as image optimization.&lt;/p></description></item><item><title>Other installation methods</title><link>https://raulitoflying.github.io/blog/other-installation-methods/</link><pubDate>Tue, 11 Feb 2025 14:38:33 +0200</pubDate><guid>https://raulitoflying.github.io/blog/other-installation-methods/</guid><description>&lt;p>This is a guide that extends the default instructions offered in &lt;a href="https://github.com/zetxek/adritian-free-hugo-theme/blob/main/README.md">the theme readme&lt;/a>.&lt;/p>
-&lt;h4 id="manual-configuration">Manual configuration&lt;/h4>
-&lt;p>If you prefer to manually set your site, you need to replace the contents of your config file (&lt;code>hugo.toml&lt;/code>) file by these:&lt;/p>
-&lt;details>
-&lt;summary>hugo.toml configuration&lt;/summary>
-&lt;pre tabindex="0">&lt;code>baseURL = &amp;#34;&amp;lt;your website url&amp;gt;&amp;#34;
-languageCode = &amp;#34;en&amp;#34;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://raulitoflying.github.io/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0100</lastBuildDate><atom:link href="https://raulitoflying.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Technical Support Engineer</title><link>https://raulitoflying.github.io/experience/job-3/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/experience/job-3/</guid><description>&lt;style>
+.experience-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
 
-[module]
-[module.hugoVersion]
-# We use hugo.Deps to list dependencies, which was added in Hugo 0.92.0
-min = &amp;#34;0.92.0&amp;#34;
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
 
-[[module.imports]]
-path=&amp;#34;github.com/zetxek/adritian-free-hugo-theme&amp;#34;
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
 
-## Base mounts - so your site&amp;#39;s assets are available
- [[module.mounts]]
- source = &amp;#34;archetypes&amp;#34;
- target = &amp;#34;archetypes&amp;#34;
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
 
- [[module.mounts]]
- source = &amp;#34;assets&amp;#34;
- target = &amp;#34;assets&amp;#34;
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
 
- [[module.mounts]]
- source = &amp;#34;i18n&amp;#34;
- target = &amp;#34;i18n&amp;#34;
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
 
- [[module.mounts]]
- source = &amp;#34;layouts&amp;#34; 
- target = &amp;#34;layouts&amp;#34;
+.tech-list {
+ margin-top: 1rem;
+ padding-left: 1.5rem;
+}
 
- [[module.mounts]]
- source = &amp;#34;static&amp;#34;
- target = &amp;#34;static&amp;#34;
+.tech-list li {
+ margin-bottom: 0.5rem;
+ line-height: 1.6;
+ color: #34495e;
+}
 
-# The following mounts are required for the theme to be able to load bootstrap
-# Remember also to copy the theme&amp;#39;s `package.json` to your site, and run `npm install`
-[[module.mounts]]
- source = &amp;#34;node_modules/bootstrap/scss&amp;#34;
- target = &amp;#34;assets/scss/bootstrap&amp;#34;
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
 
-[[module.mounts]]
- source = &amp;#34;node_modules/bootstrap/dist/js&amp;#34;
- target = &amp;#34;assets/js/bootstrap&amp;#34;
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
 
-[[module.mounts]]
- source = &amp;#34;node_modules/bootstrap/dist/js/bootstrap.bundle.min.js&amp;#34;
- target = &amp;#34;assets/js/vendor/bootstrap.bundle.min.js&amp;#34;
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
 
-## Optional, if you want print improvements (to PDF/printed)
-[[module.mounts]]
-source = &amp;#34;node_modules/bootstrap-print-css/css/bootstrap-print.css&amp;#34;
-target = &amp;#34;assets/css/bootstrap-print.css&amp;#34;
+.accomplishment-item p {
+ color: #34495e !important;
+}
 
-[params]
-
- title = &amp;#39;Your website title&amp;#39;
- description = &amp;#39;Your website description&amp;#39;
- sections = [&amp;#34;showcase&amp;#34;, &amp;#34;about&amp;#34;, &amp;#34;education&amp;#34;, &amp;#34;experience&amp;#34;, &amp;#34;client-and-work&amp;#34;, &amp;#34;testimonial&amp;#34;, &amp;#34;contact&amp;#34;, &amp;#34;newsletter&amp;#34;]
-
- # If you want to display an image logo in the header, you can add it here
- # logo = &amp;#39;/img/hugo.svg&amp;#39;
- homepageExperienceCount = 6
-
- [params.analytics]
- ## Analytics parameters.
- ### Supported so far: Vercel (Page Insights, Analytics)
- ### And Google (Tag Manager, Analytics)
-
- # controls vercel page insights - disabled by default
- # to enable, just set to true
- vercelPageInsights = false
- vercelAnalytics = false
- 
- # google analytics and tag manager. to enable, set &amp;#34;enabled&amp;#34; to true
- # and add the tracking code (UA-something for analytics, GTM-something for tag manager)
- [params.analytics.googleAnalytics]
- code = &amp;#34;UA-XXXXX-Y&amp;#34;
- enabled = false
- [params.analytics.googleTagManager]
- code = &amp;#34;GTM-XXXXX&amp;#34;
- enabled = false
-
-[build]
- [build.buildStats]
- disableClasses = false
- disableIDs = false
- disableTags = false
- enable = true
-
-[params.languages.selector.disable]
- footer = false
-
-[languages]
- [languages.en]
- disabled = false
- languageCode = &amp;#39;en&amp;#39;
- languageDirection = &amp;#39;ltr&amp;#39;
- languageName = &amp;#39;English&amp;#39;
- title = &amp;#39;&amp;#39;
- weight = 0
-
- [languages.en.menus]
- [[languages.en.menus.header]]
- name = &amp;#39;About&amp;#39;
- URL = &amp;#39;#about&amp;#39;
- weight = 2
- [[languages.en.menus.header]]
- name = &amp;#39;Portfolio&amp;#39;
- URL = &amp;#39;#portfolio&amp;#39;
- weight = 3
- # [[languages.en.menus.header]]
- # name = &amp;#34;Experience&amp;#34;
- # URL = &amp;#34;#experience&amp;#34;
- # weight = 4
-
- [[languages.en.menus.header]]
- name = &amp;#34;Blog&amp;#34;
- URL = &amp;#34;/blog&amp;#34;
- weight = 5
-
- [[languages.en.menus.header]]
- name = &amp;#34;Contact&amp;#34;
- URL = &amp;#34;#contact&amp;#34;
- weight = 6
-
- [[languages.en.menus.footer]]
- name = &amp;#34;About&amp;#34;
- URL = &amp;#34;#about&amp;#34;
- weight = 2
-
- [[languages.en.menus.footer]]
- name = &amp;#34;Portfolio&amp;#34;
- URL = &amp;#34;#portfolio&amp;#34;
- weight = 3
-
- [[languages.en.menus.footer]]
- name = &amp;#34;Contact&amp;#34;
- URL = &amp;#34;#contact&amp;#34;
- weight = 4
-
-
- [languages.es]
- disabled = false
- languageCode = &amp;#39;es&amp;#39;
- languageDirection = &amp;#39;ltr&amp;#39;
- languageName = &amp;#39;Español&amp;#39;
- title = &amp;#39;&amp;#39;
- weight = 0
- [[languages.es.menus.header]]
- name = &amp;#39;Sobre mi&amp;#39;
- URL = &amp;#39;/es/#about&amp;#39;
- weight = 2
- [[languages.es.menus.header]]
- name = &amp;#39;Portfolio&amp;#39;
- URL = &amp;#39;/es/#portfolio&amp;#39;
- weight = 3
-
- # [[languages.es.menus.header]]
- # name = &amp;#34;Experiencia&amp;#34;
- # URL = &amp;#34;/es/#experience&amp;#34;
- # weight = 4
-
- [[languages.es.menus.header]]
- name = &amp;#34;Blog&amp;#34;
- URL = &amp;#34;/es/blog&amp;#34;
- weight = 5
-
- [[languages.es.menus.header]]
- name = &amp;#34;Contacto&amp;#34;
- URL = &amp;#34;/es/#contact&amp;#34;
- weight = 6
-
- [[languages.es.menus.footer]]
- name = &amp;#34;Sobre mi&amp;#34;
- URL = &amp;#34;/es/#about&amp;#34;
- weight = 2
-
- [[languages.es.menus.footer]]
- name = &amp;#34;Portfolio&amp;#34;
- URL = &amp;#34;/es/#portfolio&amp;#34;
- weight = 3
-
- [[languages.es.menus.footer]]
- name = &amp;#34;Contact&amp;#34;
- URL = &amp;#34;/es/#contact&amp;#34;
- weight = 4
-
- [languages.fr]
- disabled = false
- languageCode = &amp;#39;fr&amp;#39;
- languageDirection = &amp;#39;ltr&amp;#39;
- languageName = &amp;#39;Français&amp;#39;
- title = &amp;#39;&amp;#39;
- weight = 0
-
- [languages.fr.menus]
- [[languages.fr.menus.header]]
- name = &amp;#39;About&amp;#39;
- URL = &amp;#39;#about&amp;#39;
- weight = 2
- [[languages.fr.menus.header]]
- name = &amp;#39;Portfolio&amp;#39;
- URL = &amp;#39;#portfolio&amp;#39;
- weight = 3
- # [[languages.fr.menus.header]]
- # name = &amp;#34;Experience&amp;#34;
- # URL = &amp;#34;#experience&amp;#34;
- # weight = 4
-
- [[languages.fr.menus.header]]
- name = &amp;#34;Blog&amp;#34;
- URL = &amp;#34;/blog&amp;#34;
- weight = 5
-
- [[languages.fr.menus.header]]
- name = &amp;#34;Contact&amp;#34;
- URL = &amp;#34;#contact&amp;#34;
- weight = 6
-
- [[languages.fr.menus.footer]]
- name = &amp;#34;About&amp;#34;
- URL = &amp;#34;#about&amp;#34;
- weight = 2
-
- [[languages.fr.menus.footer]]
- name = &amp;#34;Portfolio&amp;#34;
- URL = &amp;#34;#portfolio&amp;#34;
- weight = 3
-
- [[languages.fr.menus.footer]]
- name = &amp;#34;Contact&amp;#34;
- URL = &amp;#34;#contact&amp;#34;
- weight = 4
-
-# Plugins
-[params.plugins]
-
- # CSS Plugins
- [[params.plugins.css]]
- URL = &amp;#34;css/custom.css&amp;#34;
- [[params.plugins.css]]
- URL = &amp;#34;css/adritian-icons.css&amp;#34;
- ## Optional, if you want print improvements (to PDF/printed)
- [[params.plugins.css]]
- URL = &amp;#34;css/bootstrap-print.css&amp;#34;
- 
- # JS Plugins
- [[params.plugins.js]]
- URL = &amp;#34;js/rad-animations.js&amp;#34;
- [[params.plugins.js]]
- URL = &amp;#34;js/sticky-header.js&amp;#34;
- [[params.plugins.js]]
- URL = &amp;#34;js/library/fontfaceobserver.js&amp;#34;
-
- # SCSS Plugins
- [[params.plugins.scss]]
- URL = &amp;#34;scss/adritian.scss&amp;#34;
-
-
-# theme/color style 
-[params.colorTheme]
-
-## the following configuration would disable automatic theme selection
-# [params.colorTheme.auto]
-# disable = true
-# [params.colorTheme.forced]
-# theme = &amp;#34;dark&amp;#34;
-
-## the following parameter will disable theme override in the footer
-# [params.colorTheme.selector.disable]
-# footer = true
-
-
-## by default we allow override AND automatic selection
-
-[params.blog]
-layout = &amp;#34;default&amp;#34; # options: default, sidebar
-sidebarWidth = &amp;#34;25&amp;#34; # percentage width of the sidebar
-showCategories = true
-showRecentPosts = true
-recentPostCount = 5
-listStyle = &amp;#34;summary&amp;#34; # options: simple, summary
-&lt;/code>&lt;/pre>&lt;ol>
-&lt;li>Get the module: &lt;code>hugo mod get -u&lt;/code>&lt;/li>
-&lt;li>Execute &lt;code>hugo mod npm pack&lt;/code> - this will generate a &lt;code>package.json&lt;/code> file in the root folder of your site, with the dependencies for the theme.&lt;/li>
-&lt;li>Execute &lt;code>npm install&lt;/code> - this will install the dependencies for the theme (including bootstrap)&lt;/li>
-&lt;li>(Optional, to override the defaults) Create a file &lt;code>data/homepage.yml&lt;/code> with the contents of the &lt;a href="https://github.com/zetxek/adritian-free-hugo-theme/blob/main/exampleSite/data/homepage.yml">&lt;code>exampleSite/data/homepage.yml&lt;/code>&lt;/a> file, and customize to your needs (&lt;strong>note: this file is not included in your theme if you use hugo modules, download it manually from the repository&lt;/strong>)&lt;/li>
-&lt;/ol>
-&lt;/details>
-&lt;h3 id="traditional-installation-as-git-submodule">Traditional Installation (as git submodule)&lt;/h3>
-&lt;p>If you prefer not to use Hugo Modules, you can still install the theme as a git submodule.
-The guide is very similar to &lt;a href="https://gohugo.io/getting-started/quick-start/#create-a-site">official &amp;ldquo;Quick Start&amp;rdquo;&lt;/a>, just changing the theme URL in the &lt;code>git submodule add&lt;/code> command:&lt;/p></description></item><item><title>Graziella Nutella</title><link>https://raulitoflying.github.io/testimonial/graziella-nutella/</link><pubDate>Mon, 25 Nov 2024 21:53:18 +0100</pubDate><guid>https://raulitoflying.github.io/testimonial/graziella-nutella/</guid><description>&lt;p>The content of this section comes from the &lt;code>content/testimonial&lt;/code> folder contents. This that you see is in &lt;code>content/testimonial/graziella-nutella.md&lt;/code>.&lt;/p>
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="experience-content">
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Resolved &lt;strong>800+ customer inquiries&lt;/strong> and technical issues across billing, automation, and third-party integrations (&lt;strong>Stripe, Kisi, GraphQL, MySQL&lt;/strong>). Collaborated with the mobile engineering team and admin leads to bridge communication between business and technical workflows in the &lt;strong>WLA (Workspace Login &amp; Access)&lt;/strong> build process. Partnered with product and engineering teams to identify and fix systemic problems, improving &lt;strong>first-response accuracy by 37%&lt;/strong> and &lt;strong>ticket resolution time by 29%&lt;/strong>.&lt;/p></description></item><item><title>Graziella Nutella</title><link>https://raulitoflying.github.io/testimonial/graziella-nutella/</link><pubDate>Mon, 25 Nov 2024 21:53:18 +0100</pubDate><guid>https://raulitoflying.github.io/testimonial/graziella-nutella/</guid><description>&lt;p>The content of this section comes from the &lt;code>content/testimonial&lt;/code> folder contents. This that you see is in &lt;code>content/testimonial/graziella-nutella.md&lt;/code>.&lt;/p>
 &lt;p>You can also use parameters for configuration:&lt;/p>
 &lt;pre tabindex="0">&lt;code>name: &amp;#34;Nutting Hill&amp;#34; # place/city/country for the experience. Fill-in.
 position: &amp;#34;Nutcracker&amp;#34; # from-to, for example &amp;#34;2022-2024&amp;#34;. Fill-in.
@@ -635,201 +88,732 @@ params:
  image:
  src: &amp;#34;images/testimonials/testimonial1.png&amp;#34; # example: &amp;#34;images/clients/asgardia.png&amp;#34;
  scale: 0.5
-&lt;/code>&lt;/pre></description></item><item><title>Dana Oneal</title><link>https://raulitoflying.github.io/testimonial/dana-oneal/</link><pubDate>Mon, 25 Nov 2024 21:50:45 +0100</pubDate><guid>https://raulitoflying.github.io/testimonial/dana-oneal/</guid><description>&lt;p>I had the pleasure of working with this freelancer on several projects, and their performance has been nothing short of outstanding. They bring a high level of expertise, creativity, and dedication to every task. Their ability to understand project requirements and deliver exceptional results on time is truly impressive. They are a reliable and proactive professional who consistently exceeds expectations. I highly recommend this freelancer to anyone seeking top-notch skills and a collaborative partner.&lt;/p></description></item><item><title>Ferdinand Shermand</title><link>https://raulitoflying.github.io/testimonial/ferdinand-shermand/</link><pubDate>Mon, 25 Nov 2024 21:30:46 +0100</pubDate><guid>https://raulitoflying.github.io/testimonial/ferdinand-shermand/</guid><description>&lt;p>Working with this colleague has been an absolute pleasure. Their dedication, professionalism, and positive attitude make them an invaluable asset to our team. They consistently go above and beyond to ensure that projects are completed on time and to the highest standard. Their ability to collaborate effectively and support their colleagues is truly commendable. I am continually impressed by their innovative thinking and problem-solving skills. This colleague is not just a team member but a true inspiration and a driving force behind our team’s success.&lt;/p></description></item><item><title>Ztos</title><link>https://raulitoflying.github.io/client-work/ztos/</link><pubDate>Sun, 25 Aug 2024 10:23:39 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/ztos/</guid><description/></item><item><title>Zoo</title><link>https://raulitoflying.github.io/client-work/zoo/</link><pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/zoo/</guid><description/></item><item><title>Kanba</title><link>https://raulitoflying.github.io/client-work/kanba/</link><pubDate>Sun, 25 Aug 2024 10:22:34 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/kanba/</guid><description/></item><item><title>Goldline</title><link>https://raulitoflying.github.io/client-work/goldline/</link><pubDate>Sun, 25 Aug 2024 10:21:48 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/goldline/</guid><description/></item><item><title>Earth 2.0</title><link>https://raulitoflying.github.io/client-work/earth2/</link><pubDate>Sun, 25 Aug 2024 10:17:12 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/earth2/</guid><description/></item><item><title>Asgardia</title><link>https://raulitoflying.github.io/client-work/asgardia/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/asgardia/</guid><description/></item><item><title>Sample content: featured image</title><link>https://raulitoflying.github.io/blog/sample-3/</link><pubDate>Mon, 24 Jun 2024 14:38:33 +0200</pubDate><guid>https://raulitoflying.github.io/blog/sample-3/</guid><description>&lt;p>Sample blog content. Like a lorem ipsum but saying something more interesting.&lt;/p>
-&lt;p>&lt;img src="https://raulitoflying.github.io/img/blog/feature-sample-3.png" alt="Example image">&lt;/p>
-&lt;p>Welcome to the world of &amp;ldquo;Content Ipsum,&amp;rdquo; the fresh alternative to the classic lorem ipsum. It&amp;rsquo;s the perfect blend for designers and writers who crave a dash of creativity and meaning in their placeholder text. Imagine a text that not only fills the space but also sparks the imagination, a text that weaves tales of innovation, inspiration, and the endless possibilities that creativity brings.&lt;/p></description></item><item><title>Sample content: formatting styles</title><link>https://raulitoflying.github.io/blog/sample/</link><pubDate>Fri, 21 Jun 2024 14:38:33 +0200</pubDate><guid>https://raulitoflying.github.io/blog/sample/</guid><description>&lt;p>Sample blog content. Like a lorem ipsum but saying something more interesting.&lt;/p>
-&lt;p>We will show some content that is supported:&lt;/p>
-&lt;h2 id="basic-syntax">Basic Syntax&lt;/h2>
-&lt;h3 id="headings">Headings&lt;/h3>
-&lt;pre tabindex="0">&lt;code># Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-&lt;/code>&lt;/pre>&lt;h2 id="heading-2">Heading 2&lt;/h2>
-&lt;h3 id="heading-3">Heading 3&lt;/h3>
-&lt;h4 id="heading-4">Heading 4&lt;/h4>
-&lt;h5 id="heading-5">Heading 5&lt;/h5>
-&lt;h6 id="heading-6">Heading 6&lt;/h6>
-&lt;h3 id="emphasis">Emphasis&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>*This text will be italic*
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>_This will also be italic_
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>**This text will be bold**
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>__This will also be bold__
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>_You **can** combine them_
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;em>This text will be italic&lt;/em>&lt;/p></description></item><item><title>LLM-based Political Stance Classification</title><link>https://raulitoflying.github.io/projects/llm-political-stance/</link><pubDate>Tue, 20 Feb 2024 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/llm-political-stance/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="reference-link">Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://github.com/Raulitoflying/CS7980-llms-political">Reference Link&lt;/a>&lt;/p>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Engineered a political stance classifier using RAG and hybrid NLP-graph techniques, achieving 90% accuracy by &lt;strong>fine-tuning&lt;/strong> large language
-models and designing prompt templates to improve generalization across domains.&lt;/li>
-&lt;li>Constructed scalable embedding pipelines with &lt;strong>LangChain&lt;/strong>, &lt;strong>pgvector&lt;/strong>, and &lt;strong>spaCy-based NLP preprocessing&lt;/strong>, aggregating over &lt;strong>70,000+&lt;/strong> social media textual records (Twitter, Reddit) to enhance training diversity and robustness.&lt;/li>
-&lt;li>Benchmarked open-source and proprietary LLMs &lt;strong>(Claude, Gemini, Mistral, LLaMA)&lt;/strong> across &lt;strong>10+&lt;/strong> political topics, applying cross-model bias mitigation and visualizing results in &lt;strong>Tableau&lt;/strong> to assess fairness.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Hugging Face&lt;/strong>: For accessing pre-trained models and tokenizers&lt;/li>
-&lt;li>&lt;strong>PyTorch&lt;/strong>: Deep learning framework for model training&lt;/li>
-&lt;li>&lt;strong>RAG (Retrieval-Augmented Generation)&lt;/strong>: For enhancing model responses&lt;/li>
-&lt;li>&lt;strong>NLP&lt;/strong>: Natural Language Processing techniques for text preprocessing&lt;/li>
-&lt;li>&lt;strong>LangChain&lt;/strong>: For building LLM-powered applications&lt;/li>
-&lt;li>&lt;strong>spaCy&lt;/strong>: For advanced NLP preprocessing&lt;/li>
-&lt;li>&lt;strong>Tableau&lt;/strong>: For visualizing results and assessing fairness&lt;/li>
-&lt;/ul>
-&lt;p>This project demonstrates the application of state-of-the-art language models for political stance classification, with a focus on accuracy, fairness, and cross-domain generalization.&lt;/p></description></item><item><title>Streamlit Soccer Platform</title><link>https://raulitoflying.github.io/projects/streamlit-soccer/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/streamlit-soccer/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="live-demo-and-reference-link">Live Demo and Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://raulitoflyingsoccerplantform.streamlit.app/">Live Demo&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://github.com/Raulitoflying/Streamlit-Soccer-Plantform">Reference Link&lt;/a>&lt;/p>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Built a real-time interactive soccer analytics platform with Streamlit and Pandas, analyzing &lt;strong>100+&lt;/strong> player stats across &lt;strong>20+&lt;/strong> leagues.&lt;/li>
-&lt;li>Optimized analytics using Seaborn and WordCloud for visual player-level storytelling; integrated external APIs to fetch live data from &lt;strong>20+&lt;/strong> European leagues and the World Cup.&lt;/li>
-&lt;li>Deployed via &lt;strong>Streamlit Cloud&lt;/strong>, improving stability by &lt;strong>40%&lt;/strong> through automated testing and cache optimization for concurrent users.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Streamlit&lt;/strong>: For building the interactive web application&lt;/li>
-&lt;li>&lt;strong>Pandas&lt;/strong>: For data manipulation and analysis&lt;/li>
-&lt;li>&lt;strong>Seaborn&lt;/strong>: For statistical data visualization&lt;/li>
-&lt;li>&lt;strong>WordCloud&lt;/strong>: For generating word clouds from text data&lt;/li>
-&lt;li>&lt;strong>Python&lt;/strong>: Core programming language&lt;/li>
-&lt;li>&lt;strong>APIs&lt;/strong>: Integration with external soccer data sources&lt;/li>
-&lt;/ul>
-&lt;p>This platform provides soccer enthusiasts with real-time analytics and visualizations, enabling deeper insights into player and team performance across major leagues worldwide.&lt;/p></description></item><item><title>Northeastern University Vancouver</title><link>https://raulitoflying.github.io/education/high-school/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://raulitoflying.github.io/education/high-school/</guid><description>&lt;ul>
+&lt;/code>&lt;/pre></description></item><item><title>Dana Oneal</title><link>https://raulitoflying.github.io/testimonial/dana-oneal/</link><pubDate>Mon, 25 Nov 2024 21:50:45 +0100</pubDate><guid>https://raulitoflying.github.io/testimonial/dana-oneal/</guid><description>&lt;p>I had the pleasure of working with this freelancer on several projects, and their performance has been nothing short of outstanding. They bring a high level of expertise, creativity, and dedication to every task. Their ability to understand project requirements and deliver exceptional results on time is truly impressive. They are a reliable and proactive professional who consistently exceeds expectations. I highly recommend this freelancer to anyone seeking top-notch skills and a collaborative partner.&lt;/p></description></item><item><title>Ferdinand Shermand</title><link>https://raulitoflying.github.io/testimonial/ferdinand-shermand/</link><pubDate>Mon, 25 Nov 2024 21:30:46 +0100</pubDate><guid>https://raulitoflying.github.io/testimonial/ferdinand-shermand/</guid><description>&lt;p>Working with this colleague has been an absolute pleasure. Their dedication, professionalism, and positive attitude make them an invaluable asset to our team. They consistently go above and beyond to ensure that projects are completed on time and to the highest standard. Their ability to collaborate effectively and support their colleagues is truly commendable. I am continually impressed by their innovative thinking and problem-solving skills. This colleague is not just a team member but a true inspiration and a driving force behind our team’s success.&lt;/p></description></item><item><title>Ztos</title><link>https://raulitoflying.github.io/client-work/ztos/</link><pubDate>Sun, 25 Aug 2024 10:23:39 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/ztos/</guid><description/></item><item><title>Zoo</title><link>https://raulitoflying.github.io/client-work/zoo/</link><pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/zoo/</guid><description/></item><item><title>Kanba</title><link>https://raulitoflying.github.io/client-work/kanba/</link><pubDate>Sun, 25 Aug 2024 10:22:34 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/kanba/</guid><description/></item><item><title>Goldline</title><link>https://raulitoflying.github.io/client-work/goldline/</link><pubDate>Sun, 25 Aug 2024 10:21:48 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/goldline/</guid><description/></item><item><title>Earth 2.0</title><link>https://raulitoflying.github.io/client-work/earth2/</link><pubDate>Sun, 25 Aug 2024 10:17:12 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/earth2/</guid><description/></item><item><title>Asgardia</title><link>https://raulitoflying.github.io/client-work/asgardia/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>https://raulitoflying.github.io/client-work/asgardia/</guid><description/></item><item><title>LLM-based Political Stance Classification</title><link>https://raulitoflying.github.io/projects/llm-political-stance/</link><pubDate>Tue, 20 Feb 2024 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/llm-political-stance/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://github.com/Raulitoflying/CS7980-llms-political" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View on GitHub
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Engineered a political stance classifier using RAG and hybrid NLP-graph techniques, achieving &lt;strong>90%&lt;/strong> accuracy by &lt;strong>fine-tuning&lt;/strong> large language models and designing prompt templates to improve generalization across domains.&lt;/p></description></item><item><title>Streamlit Soccer Platform</title><link>https://raulitoflying.github.io/projects/streamlit-soccer/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/streamlit-soccer/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+ margin-right: 1rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+
+ .reference-link {
+ display: block;
+ margin-bottom: 1rem;
+ margin-right: 0;
+ text-align: center;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://raulitoflyingsoccerplantform.streamlit.app/" target="_blank" rel="noopener noreferrer" class="reference-link">
+ Live Demo
+&lt;/a>
+&lt;a href="https://github.com/Raulitoflying/Streamlit-Soccer-Plantform" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View on GitHub
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Built a real-time interactive soccer analytics platform with Streamlit and Pandas, analyzing &lt;strong>100+&lt;/strong> player stats across &lt;strong>20+&lt;/strong> leagues.&lt;/p></description></item><item><title>Northeastern University Vancouver</title><link>https://raulitoflying.github.io/education/high-school/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://raulitoflying.github.io/education/high-school/</guid><description>&lt;ul>
 &lt;li>&lt;strong>Period&lt;/strong>: Sep 2023 - Apr 2025&lt;/li>
 &lt;li>&lt;strong>Modules&lt;/strong>: Python Programming, Machine Learning, Natural Language Processing, Web Development (Node.js APIs), Database Management (PostgreSQL), AWS Cloud, Artificial Intelligence, Computer Vision, Human-Computer Interaction&lt;/li>
-&lt;/ul></description></item><item><title>Healthcare Management System</title><link>https://raulitoflying.github.io/projects/healthcare-system/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/healthcare-system/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="reference-link">Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://github.com/Raulitoflying/dbms-healthcare">Reference Link&lt;/a>&lt;/p>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Architected a secure healthcare platform with Spring Boot and React/Vite, implementing &lt;strong>RESTful API principles&lt;/strong> and &lt;strong>ACID&lt;/strong> transactions in MongoDB to manage &lt;strong>500+&lt;/strong> medical records and &lt;strong>1000+&lt;/strong> appointments monthly with guaranteed data consistency.&lt;/li>
-&lt;li>Engineered JWT-based authentication with OAuth2 Resource Server and &lt;strong>role-based access control&lt;/strong>, ensuring &lt;strong>HIPAA-compliant&lt;/strong> data protection while providing specialized interfaces for doctors, patients, and administrators.&lt;/li>
-&lt;li>Leveraged Vite&amp;rsquo;s development tools to accelerate build times by &lt;strong>78% (45s to 10s)&lt;/strong>, resulting in improved developer productivity and sub-second rendering performance for end users.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Spring Boot&lt;/strong>: Backend framework for API development&lt;/li>
-&lt;li>&lt;strong>React/Vite&lt;/strong>: Frontend UI framework with optimized build tools&lt;/li>
-&lt;li>&lt;strong>MongoDB&lt;/strong>: NoSQL database with ACID transaction support&lt;/li>
-&lt;li>&lt;strong>JWT Security&lt;/strong>: Authentication and authorization&lt;/li>
-&lt;li>&lt;strong>OAuth2 Resource Server&lt;/strong>: Secure identity management&lt;/li>
-&lt;li>&lt;strong>RBAC&lt;/strong>: Role-based access control system&lt;/li>
-&lt;li>&lt;strong>React Router&lt;/strong>: Client-side routing&lt;/li>
-&lt;li>&lt;strong>Redux Toolkit&lt;/strong>: State management&lt;/li>
-&lt;/ul>
-&lt;p>This healthcare management system offers a comprehensive solution for medical facilities, with HIPAA-compliant security, efficient appointment scheduling, and specialized user interfaces for all stakeholders in the healthcare ecosystem.&lt;/p></description></item><item><title>Cafeteria Coffee App</title><link>https://raulitoflying.github.io/projects/cafeteria-coffee/</link><pubDate>Wed, 10 May 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/cafeteria-coffee/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="reference-link">Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://github.com/Raulitoflying/CS5520-Cafeteria">Reference Link&lt;/a>&lt;/p>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Developed and launched a mobile app with &lt;strong>React Native&lt;/strong> and &lt;strong>Expo&lt;/strong>, enabling users to manage orders, profiles, and journals.&lt;/li>
-&lt;li>Secured user authentication with Firebase, supporting &lt;strong>200+&lt;/strong> monthly logins and efficient password recovery, optimizing Firestore database to handle &lt;strong>100+&lt;/strong> user profiles and &lt;strong>250+&lt;/strong> journal entries with robust security.&lt;/li>
-&lt;li>Integrated &lt;strong>Google Maps&lt;/strong> and &lt;strong>OpenAI APIs&lt;/strong> to enhance location-based searches and personalized coffee recommendations, managing &lt;strong>400+&lt;/strong> monthly requests with on-time delivery and feature stability.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>React Native&lt;/strong>: Cross-platform mobile development framework&lt;/li>
-&lt;li>&lt;strong>Expo&lt;/strong>: Simplified React Native development and deployment&lt;/li>
-&lt;li>&lt;strong>Firebase&lt;/strong>: For authentication services&lt;/li>
-&lt;li>&lt;strong>Firestore&lt;/strong>: NoSQL database for storing user data&lt;/li>
-&lt;li>&lt;strong>Google Maps API&lt;/strong>: For location-based features&lt;/li>
-&lt;li>&lt;strong>OpenAI API&lt;/strong>: For personalized recommendations&lt;/li>
-&lt;/ul>
-&lt;p>This mobile application provides coffee enthusiasts with a seamless way to discover, order, and journal their coffee experiences, while supporting location-based recommendations and robust user management.&lt;/p></description></item><item><title>ACA: Highly Available PHP Application</title><link>https://raulitoflying.github.io/projects/aca-php/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/aca-php/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="reference-link">Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://www.credly.com/badges/e180e73c-ec92-4d21-af31-a7fe7866767a">Reference Link&lt;/a>&lt;/p>
- &lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Led the deployment of a PHP application using Docker on AWS &lt;strong>(EC2, ELB, Auto Scaling)&lt;/strong>, achieving &lt;strong>99.9%&lt;/strong> uptime.&lt;/li>
-&lt;li>Integrated &lt;strong>MySQL&lt;/strong> via &lt;strong>RDS&lt;/strong> and secured credentials with &lt;strong>Secrets Manager&lt;/strong>, reducing response time by &lt;strong>30%&lt;/strong> during traffic peaks.&lt;/li>
-&lt;li>Streamlined infrastructure setup using Terraform and CI/CD pipelines, reducing setup time by &lt;strong>60%&lt;/strong> and enabling &lt;strong>150%&lt;/strong> horizontal scalability.&lt;/li>
-&lt;li>Created real-time monitoring dashboards using &lt;strong>CloudWatch&lt;/strong> and &lt;strong>Tableau&lt;/strong> to visualize system metrics and performance trends.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>PHP&lt;/strong>: Core programming language&lt;/li>
-&lt;li>&lt;strong>AWS Cloud&lt;/strong>: Hosting platform&lt;/li>
-&lt;li>&lt;strong>Terraform&lt;/strong>: Infrastructure as code&lt;/li>
-&lt;li>&lt;strong>Docker&lt;/strong>: Containerization&lt;/li>
-&lt;li>&lt;strong>RDS (MySQL)&lt;/strong>: Managed database service&lt;/li>
-&lt;li>&lt;strong>CloudWatch&lt;/strong>: Monitoring solution&lt;/li>
-&lt;li>&lt;strong>Tableau&lt;/strong>: Visualization tool&lt;/li>
-&lt;/ul></description></item><item><title>Kanhas Web Application</title><link>https://raulitoflying.github.io/projects/kanhas-web/</link><pubDate>Tue, 15 Nov 2022 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/kanhas-web/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="reference-link">Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://github.com/Raulitoflying/CS5610-final-project">Reference Link&lt;/a>&lt;/p>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Incorporated the development of a TypeScript course management system with Node.js (RestfulAPI Development), React, Redux, and MongoDB,
-supporting CRUD functionality and efficient data aggregation and summarization to support instructor dashboards.&lt;/li>
-&lt;li>Integrated MongoDB (for content) with PostgreSQL (for structured data) in a modular backend, improving data handling and query efficiency.&lt;/li>
-&lt;li>Deployed full-stack applications using Docker on AWS (EC2), Netlify, and Render; implemented Redis caching, lazy loading, and CI/CD
-pipelines to improve user experience and streamline release cycles.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Node.js&lt;/strong>: For backend API development&lt;/li>
-&lt;li>&lt;strong>React&lt;/strong>: Frontend UI library&lt;/li>
-&lt;li>&lt;strong>Redux&lt;/strong>: State management&lt;/li>
-&lt;li>&lt;strong>MongoDB&lt;/strong>: NoSQL database for content storage&lt;/li>
-&lt;li>&lt;strong>PostgreSQL&lt;/strong>: SQL database for structured data&lt;/li>
-&lt;li>&lt;strong>Docker&lt;/strong>: Containerization&lt;/li>
-&lt;li>&lt;strong>AWS (EC2)&lt;/strong>: Cloud hosting&lt;/li>
-&lt;li>&lt;strong>Redis&lt;/strong>: Caching solution&lt;/li>
-&lt;/ul>
-&lt;p>This web application offers a comprehensive course management system with optimized data handling, efficient user interfaces, and a robust deployment infrastructure.&lt;/p></description></item><item><title>Data Analyst Intern</title><link>https://raulitoflying.github.io/experience/job-2/</link><pubDate>Mon, 01 Aug 2022 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/experience/job-2/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h3 id="key-accomplishments">Key Accomplishments:&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>Participated in the development of a Java-based promotional material management platform with &lt;strong>Spring Boot&lt;/strong>, integrating &lt;strong>Docker containerization and API development&lt;/strong>. Reduced code coupling by &lt;strong>23%&lt;/strong> and improved campaign outreach by &lt;strong>25%&lt;/strong>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Collaborated with campaign teams to classify and analyze 7,000+ promotional items. Generated actionable insights using &lt;strong>Tableau&lt;/strong> dashboards, improving retrieval efficiency by &lt;strong>40%&lt;/strong>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Developed a promoted &lt;strong>HTML&lt;/strong> layer that enhanced web accessibility and reduced node execution time by &lt;strong>67%&lt;/strong>.&lt;/p></description></item><item><title>Business Analyst Intern</title><link>https://raulitoflying.github.io/experience/job-1/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/experience/job-1/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h3 id="key-accomplishments">Key Accomplishments:&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>Coordinated project timelines and deliverables for a high-concurrency number generator, integrating &lt;strong>real-time analytics, data pipelines&lt;/strong>, and AWS Cloud (EC2, RDS) with MySQL databases, reducing data processing time by &lt;strong>30%&lt;/strong>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Conducted in-depth analysis (&lt;strong>data transformation, aggregation, summarization&lt;/strong>) of &lt;strong>10+&lt;/strong> senior care market reports (e.g., from Ernst &amp;amp; Young) using &lt;strong>SPSS&lt;/strong>; visualized findings using &lt;strong>Power BI&lt;/strong> dashboards to inform strategic decisions.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Collaborated with analytics and reporting stakeholders to implement cloud-hosted pipelines, improving real-time insights for &lt;strong>3+&lt;/strong> departments and enhancing data accessibility by &lt;strong>35%&lt;/strong>.&lt;/p></description></item><item><title>University of Western Ontario, Huron University College</title><link>https://raulitoflying.github.io/education/western-ontario/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>https://raulitoflying.github.io/education/western-ontario/</guid><description>&lt;ul>
+&lt;/ul></description></item><item><title>Healthcare Management System</title><link>https://raulitoflying.github.io/projects/healthcare-system/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/healthcare-system/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://github.com/Raulitoflying/dbms-healthcare" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View on GitHub
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Architected a secure healthcare platform with Spring Boot and React/Vite, implementing &lt;strong>RESTful API principles&lt;/strong> and &lt;strong>ACID&lt;/strong> transactions in MongoDB to manage &lt;strong>500+&lt;/strong> medical records and &lt;strong>1000+&lt;/strong> appointments monthly with guaranteed data consistency.&lt;/p></description></item><item><title>Cafeteria Coffee App</title><link>https://raulitoflying.github.io/projects/cafeteria-coffee/</link><pubDate>Wed, 10 May 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/cafeteria-coffee/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://github.com/Raulitoflying/CS5520-Cafeteria" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View on GitHub
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Developed and launched a mobile app with &lt;strong>React Native&lt;/strong> and &lt;strong>Expo&lt;/strong>, enabling users to manage orders, profiles, and journals.&lt;/p></description></item><item><title>ACA: Highly Available PHP Application</title><link>https://raulitoflying.github.io/projects/aca-php/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/aca-php/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://www.credly.com/badges/e180e73c-ec92-4d21-af31-a7fe7866767a" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View Certification
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Led the deployment of a PHP application using Docker on AWS &lt;strong>(EC2, ELB, Auto Scaling)&lt;/strong>, achieving &lt;strong>99.9%&lt;/strong> uptime.&lt;/p></description></item><item><title>Kanbas Web Application</title><link>https://raulitoflying.github.io/projects/kanbas-web/</link><pubDate>Tue, 15 Nov 2022 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/kanbas-web/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://github.com/Raulitoflying/CS5610-final-project" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View on GitHub
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Incorporated the development of a TypeScript course management system with Node.js &lt;strong>(RESTful API Development)&lt;/strong>, React, Redux, and MongoDB, supporting CRUD functionality and efficient data aggregation and summarization to support instructor dashboards.&lt;/p></description></item><item><title>Data Analyst Intern</title><link>https://raulitoflying.github.io/experience/job-2/</link><pubDate>Mon, 01 Aug 2022 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/experience/job-2/</guid><description>&lt;style>
+.experience-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.tech-list {
+ margin-top: 1rem;
+ padding-left: 1.5rem;
+}
+
+.tech-list li {
+ margin-bottom: 0.5rem;
+ line-height: 1.6;
+ color: #34495e;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="experience-content">
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Participated in the development of a Java-based promotional material management platform with &lt;strong>Spring Boot&lt;/strong>, integrating &lt;strong>Docker containerization and API development&lt;/strong>. Reduced code coupling by &lt;strong>23%&lt;/strong> and improved campaign outreach by &lt;strong>25%&lt;/strong>.&lt;/p></description></item><item><title>Business Analyst Intern</title><link>https://raulitoflying.github.io/experience/job-1/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/experience/job-1/</guid><description>&lt;style>
+.experience-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.tech-list {
+ margin-top: 1rem;
+ padding-left: 1.5rem;
+}
+
+.tech-list li {
+ margin-bottom: 0.5rem;
+ line-height: 1.6;
+ color: #34495e;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="experience-content">
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Coordinated project timelines and deliverables for a high-concurrency number generator, integrating &lt;strong>real-time analytics, data pipelines&lt;/strong>, and AWS Cloud (EC2, RDS) with MySQL databases, reducing data processing time by &lt;strong>30%&lt;/strong>.&lt;/p></description></item><item><title>University of Western Ontario, Huron University College</title><link>https://raulitoflying.github.io/education/western-ontario/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>https://raulitoflying.github.io/education/western-ontario/</guid><description>&lt;ul>
 &lt;li>&lt;strong>Period&lt;/strong>: Sept 2021 - Jan 2022&lt;/li>
-&lt;/ul></description></item><item><title>Beijing Language and Culture University</title><link>https://raulitoflying.github.io/education/university-of-life/</link><pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate><guid>https://raulitoflying.github.io/education/university-of-life/</guid><description>&lt;ul>
+&lt;/ul></description></item><item><title>What Is Time</title><link>https://raulitoflying.github.io/blog/what-is-time/</link><pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate><guid>https://raulitoflying.github.io/blog/what-is-time/</guid><description>&lt;p>As Saint Augustine once reflected, &amp;ldquo;What then is time? If no one asks me, I know; if I wish to explain it, I do not.&amp;rdquo;
+Perhaps we can only trace its elusive shadow in the drifting dreams of the past.&lt;/p></description></item><item><title>Beijing Language and Culture University</title><link>https://raulitoflying.github.io/education/university-of-life/</link><pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate><guid>https://raulitoflying.github.io/education/university-of-life/</guid><description>&lt;ul>
 &lt;li>&lt;strong>Period&lt;/strong>: Sept 2019 - Jun 2023&lt;/li>
 &lt;li>&lt;strong>Modules&lt;/strong>: Computational Linguistics, Python Data Analysis, Information Management, Finance and Banking, International Relations, Spanish-Chinese-English Interpretation&lt;/li>
 &lt;/ul></description></item><item><title>Home</title><link>https://raulitoflying.github.io/home/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raulitoflying.github.io/home/home/</guid><description>&lt;section id="showcase" class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
@@ -847,7 +831,7 @@ pipelines to improve user experience and streamline release cycles.&lt;/li>
  &lt;span>Software &amp; Data Engineer | IT Support | NLP &amp; Policy Analysis&lt;/span>
  &lt;/h1>
  &lt;div class="lead">
- 🎓 I'm a New Graduate Master's student in Computer Science at Northeastern University with a passion for software development, data analysis, and IT support. I thrive at the intersection of code and communication — building reliable systems and helping users solve complex issues.
+ 💼 Currently working as a Technical Support Engineer at Optix, providing AI solutions and technical support to clients. I recently graduated with a Master's degree in Computer Science from Northeastern University, specializing in software development, data analysis, and IT support. I thrive at the intersection of code and communication — building reliable systems and helping users solve complex issues.
  &lt;/div>
  
  &lt;/div>
@@ -1073,9 +1057,54 @@ pipelines to improve user experience and streamline release cycles.&lt;/li>
 
  
  &lt;div class="experience">
+ &lt;a href="https://raulitoflying.github.io/experience/job-3/" class="experience__link">
+ &lt;div class="experience__header">
+ 
+ 
+ 
+ &lt;img 
+ src="https://raulitoflying.github.io/images/experience/optix_hu_d7e92cc24cf6247c.webp" 
+ alt=" logo"
+ class="experience__company-logo"
+ loading="lazy"
+ />
+ 
+ &lt;div class="experience__meta">
+ &lt;div class="experience__date">June 2025 - Present&lt;/div>
+ &lt;div class="experience__title">Technical Support Engineer&lt;/div>
+ &lt;div class="experience__company">
+ Optix.
+ &lt;span class="experience__location">Vancouver, Canada&lt;/span>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="experience__description d-none d-print-block">
+ &lt;h1>Technical Support Engineer&lt;/h1>
+ Key Accomplishments Resolved 800+ customer inquiries and technical issues across billing, automation, and third-party integrations (Stripe, Kisi, GraphQL, MySQL). Collaborated with the mobile engineering team and admin leads to bridge communication between business and technical workflows in the WLA (Workspace Login &amp; Access) build process. Partnered with product and engineering teams to identify and fix systemic problems, improving first-response accuracy by 37% and ticket resolution time by 29%.
+Enhanced Felix, Optix's AI-powered support bot, by refining contextual understanding and implementing MCP (Model Context Protocol) integrations. Increased bot engagement rate by 45%, automated resolution rate by 33%, and improved overall CX score by 18% through better intent detection and message routing.
+Supported dev team the Coworking Software Dashboard with UI/UX improvements. Developed and optimized front-end components using React and Tailwind CSS, improving dashboard load time by 22% and modernizing admin workflows based on customer feedback.
+Built AI-driven solutions to enhance Optix's B2B SaaS operations — designed and deployed custom MCP connectors enabling secure context retrieval from Productboard, Intercom, and internal analytics systems. Accelerated AI response quality and data consistency across support and onboarding use cases.
+Designed and maintained ETL data pipelines and optimized MySQL databases, supporting internal analytics and client-side reporting. Built automated data workflows to extract, transform, and load workspace metrics. Designed and ran SQL queries to assist customers with data management, KPI tracking, and analytics reports, enabling better workspace utilization insights.
+Technologies Used TypeScript, React, Tailwind CSS, Node.js
+PHP, MCP, GraphQL, MySQL
+Docker, Intercom, Jira, Confluence
+
+ &lt;/div>
+ &lt;/div>
+ &lt;/a>
+ &lt;/div>
+ 
+ &lt;div class="experience">
  &lt;a href="https://raulitoflying.github.io/experience/job-2/" class="experience__link">
  &lt;div class="experience__header">
  
+ 
+ 
+ &lt;img 
+ src="https://raulitoflying.github.io/images/experience/greenpeace_hu_9c9638796aea502e.webp" 
+ alt=" logo"
+ class="experience__company-logo"
+ loading="lazy"
+ />
  
  &lt;div class="experience__meta">
  &lt;div class="experience__date">Aug 2022 - Dec 2022&lt;/div>
@@ -1087,11 +1116,14 @@ pipelines to improve user experience and streamline release cycles.&lt;/li>
  &lt;/div>
  &lt;div class="experience__description d-none d-print-block">
  &lt;h1>Data Analyst Intern&lt;/h1>
- Key Accomplishments: Participated in the development of a Java-based promotional material management platform with Spring Boot, integrating Docker containerization and API development. Reduced code coupling by 23% and improved campaign outreach by 25%.
+ Key Accomplishments Participated in the development of a Java-based promotional material management platform with Spring Boot, integrating Docker containerization and API development. Reduced code coupling by 23% and improved campaign outreach by 25%.
 Collaborated with campaign teams to classify and analyze 7,000+ promotional items. Generated actionable insights using Tableau dashboards, improving retrieval efficiency by 40%.
 Developed a promoted HTML layer that enhanced web accessibility and reduced node execution time by 67%.
-Delivered technical support and documentation (README) to cross-functional users, resolving MacOS/Windows issues (login, compatibility, access), end-user onboarding &amp;amp; offboarding, basic network troubleshooting (DNS, DHCP) and reducing support requests by 30%.
-Technologies Used: Java, Spring Boot, Redis, MySQL Docker, Tableau HTML/CSS, JavaScript 
+Delivered technical support and documentation (README) to cross-functional users, resolving MacOS/Windows issues (login, compatibility, access), end-user onboarding &amp; offboarding, basic network troubleshooting (DNS, DHCP) and reducing support requests by 30%.
+Technologies Used Java, Spring Boot, Redis, MySQL
+HTML/CSS, JavaScript
+Docker, Tableau
+
  &lt;/div>
  &lt;/div>
  &lt;/a>
@@ -1101,6 +1133,14 @@ Technologies Used: Java, Spring Boot, Redis, MySQL Docker, Tableau HTML/CSS, Jav
  &lt;a href="https://raulitoflying.github.io/experience/job-1/" class="experience__link">
  &lt;div class="experience__header">
  
+ 
+ 
+ &lt;img 
+ src="https://raulitoflying.github.io/images/experience/redcross_hu_106de6bec25d1f47.webp" 
+ alt=" logo"
+ class="experience__company-logo"
+ loading="lazy"
+ />
  
  &lt;div class="experience__meta">
  &lt;div class="experience__date">Jan 2022 - May 2022&lt;/div>
@@ -1112,10 +1152,13 @@ Technologies Used: Java, Spring Boot, Redis, MySQL Docker, Tableau HTML/CSS, Jav
  &lt;/div>
  &lt;div class="experience__description d-none d-print-block">
  &lt;h1>Business Analyst Intern&lt;/h1>
- Key Accomplishments: Coordinated project timelines and deliverables for a high-concurrency number generator, integrating real-time analytics, data pipelines, and AWS Cloud (EC2, RDS) with MySQL databases, reducing data processing time by 30%.
-Conducted in-depth analysis (data transformation, aggregation, summarization) of 10+ senior care market reports (e.g., from Ernst &amp;amp; Young) using SPSS; visualized findings using Power BI dashboards to inform strategic decisions.
+ Key Accomplishments Coordinated project timelines and deliverables for a high-concurrency number generator, integrating real-time analytics, data pipelines, and AWS Cloud (EC2, RDS) with MySQL databases, reducing data processing time by 30%.
+Conducted in-depth analysis (data transformation, aggregation, summarization) of 10+ senior care market reports (e.g., from Ernst &amp; Young) using SPSS; visualized findings using Power BI dashboards to inform strategic decisions.
 Collaborated with analytics and reporting stakeholders to implement cloud-hosted pipelines, improving real-time insights for 3+ departments and enhancing data accessibility by 35%.
-Technologies Used: MySQL, AWS Cloud, Power BI SPSS for statistical analysis Data visualization and reporting tools 
+Technologies Used MySQL, AWS Cloud (EC2, RDS)
+SPSS, Power BI
+Data pipelines, ETL workflows
+
  &lt;/div>
  &lt;/div>
  &lt;/a>
@@ -1190,12 +1233,12 @@ Technologies Used: MySQL, AWS Cloud, Power BI SPSS for statistical analysis Data
 
 
 
-&lt;section id="projects" class="container section-experience section section--border-bottom rad-animation-group flex-grow-1">
+&lt;section id="publications" class="container section-publications section section--border-bottom rad-animation-group flex-grow-1">
  &lt;div class="row rad-fade-down">
  &lt;div class="col-12">
  &lt;h2 class="mb-4">
  
- Projects
+ Publications
  
  &lt;/h2>
  &lt;/div>
@@ -1204,125 +1247,63 @@ Technologies Used: MySQL, AWS Cloud, Power BI SPSS for statistical analysis Data
  &lt;div class="row flex-column-reverse flex-lg-row mb-5 rad-fade-down">
  &lt;div class="col-12 col-lg-6 mt-4 mt-lg-0">
  
- 
-
-
-
-
-
 
 
 
 
 &lt;div class="container-experience">
  &lt;div class="row">
- &lt;h2>My Work&lt;/h2>
- &lt;div class="lead">Here's a selection of my recent projects showcasing different skills and technologies. Each project demonstrates my approach to problem-solving and technical implementation.&lt;/div>
+ 
+ &lt;div class="lead">My research focuses on Natural Language Processing and Large Language Models, particularly in the domain of political stance detection and text classification.&lt;/div>
  &lt;/div>
 
  &lt;div class="row">
  
  &lt;div class="col-12 col-lg-4">
  &lt;a
- href='https://github.com/Raulitoflying'
+ href='https://scholar.google.com/citations?user=zsnlhaUAAAAJ&amp;amp;hl=en'
  class="btn btn-primary btn-block w-100"
  target="_blank" rel="noopener noreferrer"
  >
- &lt;i class="icon-square-github">&lt;/i>
- GitHub
- &lt;i class="icon-arrow-right">&lt;/i>
+ &lt;i class="icon-user">&lt;/i>
+ Google Scholar
  &lt;/a>
  &lt;/div>
  
-
  
  &lt;div class="col-12 col-lg-4">
  &lt;a
- href='https://raulitoflying.github.io/projects'
- class="btn btn-frameless w-100"
- 
- >
- &lt;i class="icon-square-arrow-up-right">&lt;/i>
- All Projects
- &lt;/a>
- &lt;/div>
- 
-
- 
- &lt;div class="col-12 col-lg-4">
- &lt;a
- href='https://drive.google.com/file/d/1wnSJ8qHEsKcin122YzjPKPlnmbYas9jQ/view?usp=drive_link'
+ href='https://aclanthology.org/people/y/yixiang-zhou/'
  class="btn btn-frameless w-100"
  target="_blank" rel="noopener noreferrer"
  >
- &lt;i class="icon-download">&lt;/i>
- View More Portfolio
+ &lt;i class="icon-square-arrow-up-right">&lt;/i>
+ ACL Anthology
  &lt;/a>
  &lt;/div>
  
  &lt;/div>
-&lt;/div> 
+&lt;/div>
+
  &lt;/div>
  &lt;/div>
 
+ &lt;div class="row publications-list">
+ &lt;div class="col-12">
  
- 
-
- 
- 
-
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- &lt;div class="row project-cards">
- 
- &lt;div class="col-md-6 col-lg-4 mb-4">
- &lt;div class="card project-card h-100">
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;div class="card-img-top project-image-container">
- &lt;img src="https://raulitoflying.github.io/images/works/cafeteria_hu_92f282a36a89c8d4.png" class="project-image img-fluid" alt="Cafeteria Coffee App">
- &lt;/div>
- 
- 
+ &lt;div class="publication-item card mb-4">
  &lt;div class="card-body">
- &lt;h5 class="card-title">Cafeteria Coffee App&lt;/h5>
- &lt;p class="card-subtitle mb-2 text-muted">Mobile Application Project&lt;/p></description></item><item><title>Printable CV</title><link>https://raulitoflying.github.io/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raulitoflying.github.io/cv/</guid><description>&lt;p>ℹ This page is a demo of the printer-friendly output of the theme. You can find the source code in the demo repo (&lt;a href="https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md%29">https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md)&lt;/a>. Try printing it directly from your browser!&lt;/p>
+ &lt;div class="publication-header">
+ &lt;span class="publication-type badge bg-primary">Conference Paper&lt;/span>
+ &lt;span class="publication-venue">ACL 2025 Student Research Workshop&lt;/span>
+ &lt;/div>
+
+ &lt;h3 class="publication-title mt-3">
+ Exploiting contextual information to improve stance detection in informal political discourse with LLMs
+ &lt;/h3>
+
+ &lt;p class="publication-authors">
+ Arman Engin Sucu, &lt;strong>Yixiang Zhou&lt;/strong>, Mario A. Nascimento, Tony Mullen
+ &lt;/p></description></item><item><title>Printable CV</title><link>https://raulitoflying.github.io/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raulitoflying.github.io/cv/</guid><description>&lt;p>ℹ This page is a demo of the printer-friendly output of the theme. You can find the source code in the demo repo (&lt;a href="https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md%29">https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md)&lt;/a>. Try printing it directly from your browser!&lt;/p>
 &lt;h3 id="about-me">About me&lt;/h3>
 &lt;p>I am a passionate software engineer with over 10 years of experience building web applications and distributed systems. My expertise spans full-stack development, cloud architecture, and leading engineering teams to deliver impactful solutions. I thrive on solving complex technical challenges while mentoring others and fostering a collaborative engineering culture.&lt;/p></description></item></channel></rss>

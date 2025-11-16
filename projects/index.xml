@@ -1,143 +1,558 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on</title><link>https://raulitoflying.github.io/projects/</link><description>Recent content in Projects on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0100</lastBuildDate><atom:link href="https://raulitoflying.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>LLM-based Political Stance Classification</title><link>https://raulitoflying.github.io/projects/llm-political-stance/</link><pubDate>Tue, 20 Feb 2024 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/llm-political-stance/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="reference-link">Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://github.com/Raulitoflying/CS7980-llms-political">Reference Link&lt;/a>&lt;/p>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Engineered a political stance classifier using RAG and hybrid NLP-graph techniques, achieving 90% accuracy by &lt;strong>fine-tuning&lt;/strong> large language
-models and designing prompt templates to improve generalization across domains.&lt;/li>
-&lt;li>Constructed scalable embedding pipelines with &lt;strong>LangChain&lt;/strong>, &lt;strong>pgvector&lt;/strong>, and &lt;strong>spaCy-based NLP preprocessing&lt;/strong>, aggregating over &lt;strong>70,000+&lt;/strong> social media textual records (Twitter, Reddit) to enhance training diversity and robustness.&lt;/li>
-&lt;li>Benchmarked open-source and proprietary LLMs &lt;strong>(Claude, Gemini, Mistral, LLaMA)&lt;/strong> across &lt;strong>10+&lt;/strong> political topics, applying cross-model bias mitigation and visualizing results in &lt;strong>Tableau&lt;/strong> to assess fairness.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Hugging Face&lt;/strong>: For accessing pre-trained models and tokenizers&lt;/li>
-&lt;li>&lt;strong>PyTorch&lt;/strong>: Deep learning framework for model training&lt;/li>
-&lt;li>&lt;strong>RAG (Retrieval-Augmented Generation)&lt;/strong>: For enhancing model responses&lt;/li>
-&lt;li>&lt;strong>NLP&lt;/strong>: Natural Language Processing techniques for text preprocessing&lt;/li>
-&lt;li>&lt;strong>LangChain&lt;/strong>: For building LLM-powered applications&lt;/li>
-&lt;li>&lt;strong>spaCy&lt;/strong>: For advanced NLP preprocessing&lt;/li>
-&lt;li>&lt;strong>Tableau&lt;/strong>: For visualizing results and assessing fairness&lt;/li>
-&lt;/ul>
-&lt;p>This project demonstrates the application of state-of-the-art language models for political stance classification, with a focus on accuracy, fairness, and cross-domain generalization.&lt;/p></description></item><item><title>Streamlit Soccer Platform</title><link>https://raulitoflying.github.io/projects/streamlit-soccer/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/streamlit-soccer/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="live-demo-and-reference-link">Live Demo and Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://raulitoflyingsoccerplantform.streamlit.app/">Live Demo&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://github.com/Raulitoflying/Streamlit-Soccer-Plantform">Reference Link&lt;/a>&lt;/p>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Built a real-time interactive soccer analytics platform with Streamlit and Pandas, analyzing &lt;strong>100+&lt;/strong> player stats across &lt;strong>20+&lt;/strong> leagues.&lt;/li>
-&lt;li>Optimized analytics using Seaborn and WordCloud for visual player-level storytelling; integrated external APIs to fetch live data from &lt;strong>20+&lt;/strong> European leagues and the World Cup.&lt;/li>
-&lt;li>Deployed via &lt;strong>Streamlit Cloud&lt;/strong>, improving stability by &lt;strong>40%&lt;/strong> through automated testing and cache optimization for concurrent users.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Streamlit&lt;/strong>: For building the interactive web application&lt;/li>
-&lt;li>&lt;strong>Pandas&lt;/strong>: For data manipulation and analysis&lt;/li>
-&lt;li>&lt;strong>Seaborn&lt;/strong>: For statistical data visualization&lt;/li>
-&lt;li>&lt;strong>WordCloud&lt;/strong>: For generating word clouds from text data&lt;/li>
-&lt;li>&lt;strong>Python&lt;/strong>: Core programming language&lt;/li>
-&lt;li>&lt;strong>APIs&lt;/strong>: Integration with external soccer data sources&lt;/li>
-&lt;/ul>
-&lt;p>This platform provides soccer enthusiasts with real-time analytics and visualizations, enabling deeper insights into player and team performance across major leagues worldwide.&lt;/p></description></item><item><title>Healthcare Management System</title><link>https://raulitoflying.github.io/projects/healthcare-system/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/healthcare-system/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="reference-link">Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://github.com/Raulitoflying/dbms-healthcare">Reference Link&lt;/a>&lt;/p>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Architected a secure healthcare platform with Spring Boot and React/Vite, implementing &lt;strong>RESTful API principles&lt;/strong> and &lt;strong>ACID&lt;/strong> transactions in MongoDB to manage &lt;strong>500+&lt;/strong> medical records and &lt;strong>1000+&lt;/strong> appointments monthly with guaranteed data consistency.&lt;/li>
-&lt;li>Engineered JWT-based authentication with OAuth2 Resource Server and &lt;strong>role-based access control&lt;/strong>, ensuring &lt;strong>HIPAA-compliant&lt;/strong> data protection while providing specialized interfaces for doctors, patients, and administrators.&lt;/li>
-&lt;li>Leveraged Vite&amp;rsquo;s development tools to accelerate build times by &lt;strong>78% (45s to 10s)&lt;/strong>, resulting in improved developer productivity and sub-second rendering performance for end users.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Spring Boot&lt;/strong>: Backend framework for API development&lt;/li>
-&lt;li>&lt;strong>React/Vite&lt;/strong>: Frontend UI framework with optimized build tools&lt;/li>
-&lt;li>&lt;strong>MongoDB&lt;/strong>: NoSQL database with ACID transaction support&lt;/li>
-&lt;li>&lt;strong>JWT Security&lt;/strong>: Authentication and authorization&lt;/li>
-&lt;li>&lt;strong>OAuth2 Resource Server&lt;/strong>: Secure identity management&lt;/li>
-&lt;li>&lt;strong>RBAC&lt;/strong>: Role-based access control system&lt;/li>
-&lt;li>&lt;strong>React Router&lt;/strong>: Client-side routing&lt;/li>
-&lt;li>&lt;strong>Redux Toolkit&lt;/strong>: State management&lt;/li>
-&lt;/ul>
-&lt;p>This healthcare management system offers a comprehensive solution for medical facilities, with HIPAA-compliant security, efficient appointment scheduling, and specialized user interfaces for all stakeholders in the healthcare ecosystem.&lt;/p></description></item><item><title>Cafeteria Coffee App</title><link>https://raulitoflying.github.io/projects/cafeteria-coffee/</link><pubDate>Wed, 10 May 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/cafeteria-coffee/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="reference-link">Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://github.com/Raulitoflying/CS5520-Cafeteria">Reference Link&lt;/a>&lt;/p>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Developed and launched a mobile app with &lt;strong>React Native&lt;/strong> and &lt;strong>Expo&lt;/strong>, enabling users to manage orders, profiles, and journals.&lt;/li>
-&lt;li>Secured user authentication with Firebase, supporting &lt;strong>200+&lt;/strong> monthly logins and efficient password recovery, optimizing Firestore database to handle &lt;strong>100+&lt;/strong> user profiles and &lt;strong>250+&lt;/strong> journal entries with robust security.&lt;/li>
-&lt;li>Integrated &lt;strong>Google Maps&lt;/strong> and &lt;strong>OpenAI APIs&lt;/strong> to enhance location-based searches and personalized coffee recommendations, managing &lt;strong>400+&lt;/strong> monthly requests with on-time delivery and feature stability.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>React Native&lt;/strong>: Cross-platform mobile development framework&lt;/li>
-&lt;li>&lt;strong>Expo&lt;/strong>: Simplified React Native development and deployment&lt;/li>
-&lt;li>&lt;strong>Firebase&lt;/strong>: For authentication services&lt;/li>
-&lt;li>&lt;strong>Firestore&lt;/strong>: NoSQL database for storing user data&lt;/li>
-&lt;li>&lt;strong>Google Maps API&lt;/strong>: For location-based features&lt;/li>
-&lt;li>&lt;strong>OpenAI API&lt;/strong>: For personalized recommendations&lt;/li>
-&lt;/ul>
-&lt;p>This mobile application provides coffee enthusiasts with a seamless way to discover, order, and journal their coffee experiences, while supporting location-based recommendations and robust user management.&lt;/p></description></item><item><title>ACA: Highly Available PHP Application</title><link>https://raulitoflying.github.io/projects/aca-php/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/aca-php/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="reference-link">Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://www.credly.com/badges/e180e73c-ec92-4d21-af31-a7fe7866767a">Reference Link&lt;/a>&lt;/p>
- &lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Led the deployment of a PHP application using Docker on AWS &lt;strong>(EC2, ELB, Auto Scaling)&lt;/strong>, achieving &lt;strong>99.9%&lt;/strong> uptime.&lt;/li>
-&lt;li>Integrated &lt;strong>MySQL&lt;/strong> via &lt;strong>RDS&lt;/strong> and secured credentials with &lt;strong>Secrets Manager&lt;/strong>, reducing response time by &lt;strong>30%&lt;/strong> during traffic peaks.&lt;/li>
-&lt;li>Streamlined infrastructure setup using Terraform and CI/CD pipelines, reducing setup time by &lt;strong>60%&lt;/strong> and enabling &lt;strong>150%&lt;/strong> horizontal scalability.&lt;/li>
-&lt;li>Created real-time monitoring dashboards using &lt;strong>CloudWatch&lt;/strong> and &lt;strong>Tableau&lt;/strong> to visualize system metrics and performance trends.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>PHP&lt;/strong>: Core programming language&lt;/li>
-&lt;li>&lt;strong>AWS Cloud&lt;/strong>: Hosting platform&lt;/li>
-&lt;li>&lt;strong>Terraform&lt;/strong>: Infrastructure as code&lt;/li>
-&lt;li>&lt;strong>Docker&lt;/strong>: Containerization&lt;/li>
-&lt;li>&lt;strong>RDS (MySQL)&lt;/strong>: Managed database service&lt;/li>
-&lt;li>&lt;strong>CloudWatch&lt;/strong>: Monitoring solution&lt;/li>
-&lt;li>&lt;strong>Tableau&lt;/strong>: Visualization tool&lt;/li>
-&lt;/ul></description></item><item><title>Kanhas Web Application</title><link>https://raulitoflying.github.io/projects/kanhas-web/</link><pubDate>Tue, 15 Nov 2022 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/kanhas-web/</guid><description>&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="reference-link">Reference Link:&lt;/h4>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;p>&lt;a href="https://github.com/Raulitoflying/CS5610-final-project">Reference Link&lt;/a>&lt;/p>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="key-accomplishments">Key Accomplishments:&lt;/h4>
-&lt;ul>
-&lt;li>Incorporated the development of a TypeScript course management system with Node.js (RestfulAPI Development), React, Redux, and MongoDB,
-supporting CRUD functionality and efficient data aggregation and summarization to support instructor dashboards.&lt;/li>
-&lt;li>Integrated MongoDB (for content) with PostgreSQL (for structured data) in a modular backend, improving data handling and query efficiency.&lt;/li>
-&lt;li>Deployed full-stack applications using Docker on AWS (EC2), Netlify, and Render; implemented Redis caching, lazy loading, and CI/CD
-pipelines to improve user experience and streamline release cycles.&lt;/li>
-&lt;/ul>
-&lt;div style="margin-bottom: 40px;">&lt;/div>
-&lt;h4 id="technologies-used">Technologies Used:&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Node.js&lt;/strong>: For backend API development&lt;/li>
-&lt;li>&lt;strong>React&lt;/strong>: Frontend UI library&lt;/li>
-&lt;li>&lt;strong>Redux&lt;/strong>: State management&lt;/li>
-&lt;li>&lt;strong>MongoDB&lt;/strong>: NoSQL database for content storage&lt;/li>
-&lt;li>&lt;strong>PostgreSQL&lt;/strong>: SQL database for structured data&lt;/li>
-&lt;li>&lt;strong>Docker&lt;/strong>: Containerization&lt;/li>
-&lt;li>&lt;strong>AWS (EC2)&lt;/strong>: Cloud hosting&lt;/li>
-&lt;li>&lt;strong>Redis&lt;/strong>: Caching solution&lt;/li>
-&lt;/ul>
-&lt;p>This web application offers a comprehensive course management system with optimized data handling, efficient user interfaces, and a robust deployment infrastructure.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on</title><link>https://raulitoflying.github.io/projects/</link><description>Recent content in Projects on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0100</lastBuildDate><atom:link href="https://raulitoflying.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>LLM-based Political Stance Classification</title><link>https://raulitoflying.github.io/projects/llm-political-stance/</link><pubDate>Tue, 20 Feb 2024 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/llm-political-stance/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://github.com/Raulitoflying/CS7980-llms-political" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View on GitHub
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Engineered a political stance classifier using RAG and hybrid NLP-graph techniques, achieving &lt;strong>90%&lt;/strong> accuracy by &lt;strong>fine-tuning&lt;/strong> large language models and designing prompt templates to improve generalization across domains.&lt;/p></description></item><item><title>Streamlit Soccer Platform</title><link>https://raulitoflying.github.io/projects/streamlit-soccer/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/streamlit-soccer/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+ margin-right: 1rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+
+ .reference-link {
+ display: block;
+ margin-bottom: 1rem;
+ margin-right: 0;
+ text-align: center;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://raulitoflyingsoccerplantform.streamlit.app/" target="_blank" rel="noopener noreferrer" class="reference-link">
+ Live Demo
+&lt;/a>
+&lt;a href="https://github.com/Raulitoflying/Streamlit-Soccer-Plantform" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View on GitHub
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Built a real-time interactive soccer analytics platform with Streamlit and Pandas, analyzing &lt;strong>100+&lt;/strong> player stats across &lt;strong>20+&lt;/strong> leagues.&lt;/p></description></item><item><title>Healthcare Management System</title><link>https://raulitoflying.github.io/projects/healthcare-system/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/healthcare-system/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://github.com/Raulitoflying/dbms-healthcare" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View on GitHub
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Architected a secure healthcare platform with Spring Boot and React/Vite, implementing &lt;strong>RESTful API principles&lt;/strong> and &lt;strong>ACID&lt;/strong> transactions in MongoDB to manage &lt;strong>500+&lt;/strong> medical records and &lt;strong>1000+&lt;/strong> appointments monthly with guaranteed data consistency.&lt;/p></description></item><item><title>Cafeteria Coffee App</title><link>https://raulitoflying.github.io/projects/cafeteria-coffee/</link><pubDate>Wed, 10 May 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/cafeteria-coffee/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://github.com/Raulitoflying/CS5520-Cafeteria" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View on GitHub
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Developed and launched a mobile app with &lt;strong>React Native&lt;/strong> and &lt;strong>Expo&lt;/strong>, enabling users to manage orders, profiles, and journals.&lt;/p></description></item><item><title>ACA: Highly Available PHP Application</title><link>https://raulitoflying.github.io/projects/aca-php/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/aca-php/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://www.credly.com/badges/e180e73c-ec92-4d21-af31-a7fe7866767a" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View Certification
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Led the deployment of a PHP application using Docker on AWS &lt;strong>(EC2, ELB, Auto Scaling)&lt;/strong>, achieving &lt;strong>99.9%&lt;/strong> uptime.&lt;/p></description></item><item><title>Kanbas Web Application</title><link>https://raulitoflying.github.io/projects/kanbas-web/</link><pubDate>Tue, 15 Nov 2022 00:00:00 +0100</pubDate><guid>https://raulitoflying.github.io/projects/kanbas-web/</guid><description>&lt;style>
+.project-content {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 2rem 0;
+}
+
+.accomplishments-section {
+ margin-bottom: 3rem;
+}
+
+.section-header {
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #2c3e50;
+ margin-bottom: 1.5rem;
+ margin-top: 2rem;
+}
+
+.accomplishment-item {
+ background: #f8f9fa;
+ border-left: 4px solid #5f9c9c;
+ padding: 1.25rem 1.5rem;
+ margin-bottom: 1.25rem;
+ border-radius: 0 8px 8px 0;
+ transition: all 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+ transform: translateX(5px);
+ box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+ border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+ margin: 0;
+ line-height: 1.7;
+ color: #34495e;
+ font-size: 0.98rem;
+}
+
+.reference-link {
+ display: inline-block;
+ background: #5f9c9c;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+ background: #4a7c7c;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .accomplishment-item {
+ padding: 1rem;
+ }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+ color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+ background: #f8f9fa !important;
+ color: #34495e !important;
+}
+
+.accomplishment-item p {
+ color: #34495e !important;
+}
+
+.accomplishment-item strong {
+ color: #2c3e50 !important;
+}
+&lt;/style>
+&lt;div class="project-content">
+&lt;a href="https://github.com/Raulitoflying/CS5610-final-project" target="_blank" rel="noopener noreferrer" class="reference-link">
+ View on GitHub
+&lt;/a>
+&lt;div class="accomplishments-section">
+&lt;div class="section-header">Key Accomplishments&lt;/div>
+&lt;div class="accomplishment-item">
+&lt;p>Incorporated the development of a TypeScript course management system with Node.js &lt;strong>(RESTful API Development)&lt;/strong>, React, Redux, and MongoDB, supporting CRUD functionality and efficient data aggregation and summarization to support instructor dashboards.&lt;/p></description></item></channel></rss>

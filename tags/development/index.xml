@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on </title>
+    <link>http://localhost:1313/tags/development/</link>
+    <description>Recent content in Development on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Nov 2023 10:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Full-Stack Development with Java and JavaScript</title>
+      <link>http://localhost:1313/blog/fullstack-development/</link>
+      <pubDate>Tue, 28 Nov 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/fullstack-development/</guid>
+      <description>&lt;h1 id=&#34;full-stack-development-with-java-and-javascript&#34;&gt;Full-Stack Development with Java and JavaScript&lt;/h1&gt;&#xA;&lt;p&gt;In today&amp;rsquo;s development landscape, combining Java&amp;rsquo;s robust backend capabilities with JavaScript&amp;rsquo;s flexible frontend frameworks creates a powerful tech stack. This guide covers Spring Boot backend architecture, modern JavaScript frontend development, and how to integrate them effectively.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

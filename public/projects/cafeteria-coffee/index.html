@@ -36,8 +36,7 @@
 <meta property="og:url" content="http://localhost:1313/projects/cafeteria-coffee/">
   <meta property="og:site_name" content="Raulitoflying">
   <meta property="og:title" content="Cafeteria Coffee App">
-  <meta property="og:description" content="Reference Link: Reference Link
-Key Accomplishments: Developed and launched a mobile app with React Native and Expo, enabling users to manage orders, profiles, and journals. Secured user authentication with Firebase, supporting 200&#43; monthly logins and efficient password recovery, optimizing Firestore database to handle 100&#43; user profiles and 250&#43; journal entries with robust security. Integrated Google Maps and OpenAI APIs to enhance location-based searches and personalized coffee recommendations, managing 400&#43; monthly requests with on-time delivery and feature stability. Technologies Used: React Native: Cross-platform mobile development framework Expo: Simplified React Native development and deployment Firebase: For authentication services Firestore: NoSQL database for storing user data Google Maps API: For location-based features OpenAI API: For personalized recommendations This mobile application provides coffee enthusiasts with a seamless way to discover, order, and journal their coffee experiences, while supporting location-based recommendations and robust user management.">
+  <meta property="og:description" content="View on GitHub Key Accomplishments Developed and launched a mobile app with React Native and Expo, enabling users to manage orders, profiles, and journals.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projects">
@@ -99,6 +98,11 @@ Key Accomplishments: Developed and launched a mobile app with React Native and E
             <li class="nav-item">
               <a data-scroll class="nav-link" href="/#projects"
                 >PROJECTS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/blog"
+                >BLOG</a
               >
             </li>
             <li class="nav-item">
@@ -287,14 +291,21 @@ Key Accomplishments: Developed and launched a mobile app with React Native and E
         </div>
          
         <div class="experience " >
-          <a href="/projects/kanhas-web/">
+          <a href="/projects/kanbas-web/">
             
             
             
-              <div class="experience__header no-company-logo">
+              
+            <div class="experience__header with-company-logo">
+              <img
+                src="/images/works/kanbas-web_hu_f8160896b8ed85e.webp"
+                alt=" logo"
+                class="experience__company-logo"
+                loading="lazy"
+              >
               
               <div class="experience__meta">
-                <div class="experience__title">Kanhas Web Application</div>
+                <div class="experience__title">Kanbas Web Application</div>
                 <div class="experience__company">Full stack Web Project. <span class="experience__location">
                   Vancouver, BC</span></div>
               </div>
@@ -320,34 +331,146 @@ Key Accomplishments: Developed and launched a mobile app with React Native and E
         </div>
         
         <h1>Cafeteria Coffee App</h1>
-        <div style="margin-bottom: 40px;"></div>
-<div style="margin-bottom: 40px;"></div>
-<h4 id="reference-link">Reference Link:</h4>
-<div style="margin-bottom: 40px;"></div>
-<p><a href="https://github.com/Raulitoflying/CS5520-Cafeteria">Reference Link</a></p>
-<div style="margin-bottom: 40px;"></div>
-<h4 id="key-accomplishments">Key Accomplishments:</h4>
-<ul>
-<li>Developed and launched a mobile app with <strong>React Native</strong> and <strong>Expo</strong>, enabling users to manage orders, profiles, and journals.</li>
-<li>Secured user authentication with Firebase, supporting <strong>200+</strong> monthly logins and efficient password recovery, optimizing Firestore database to handle <strong>100+</strong> user profiles and <strong>250+</strong> journal entries with robust security.</li>
-<li>Integrated <strong>Google Maps</strong> and <strong>OpenAI APIs</strong> to enhance location-based searches and personalized coffee recommendations, managing <strong>400+</strong> monthly requests with on-time delivery and feature stability.</li>
-</ul>
-<div style="margin-bottom: 40px;"></div>
-<h4 id="technologies-used">Technologies Used:</h4>
-<ul>
-<li><strong>React Native</strong>: Cross-platform mobile development framework</li>
-<li><strong>Expo</strong>: Simplified React Native development and deployment</li>
-<li><strong>Firebase</strong>: For authentication services</li>
-<li><strong>Firestore</strong>: NoSQL database for storing user data</li>
-<li><strong>Google Maps API</strong>: For location-based features</li>
-<li><strong>OpenAI API</strong>: For personalized recommendations</li>
-</ul>
-<p>This mobile application provides coffee enthusiasts with a seamless way to discover, order, and journal their coffee experiences, while supporting location-based recommendations and robust user management.</p>
+        <style>
+.project-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
 
+.accomplishments-section {
+  margin-bottom: 3rem;
+}
+
+.section-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.accomplishment-item {
+  background: #f8f9fa;
+  border-left: 4px solid #5f9c9c;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0 8px 8px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+  border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+  margin: 0;
+  line-height: 1.7;
+  color: #34495e;
+  font-size: 0.98rem;
+}
+
+.reference-link {
+  display: inline-block;
+  background: #5f9c9c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.reference-link:hover {
+  background: #4a7c7c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .accomplishment-item {
+    padding: 1rem;
+  }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+  color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+  background: #f8f9fa !important;
+  color: #34495e !important;
+}
+
+.accomplishment-item p {
+  color: #34495e !important;
+}
+
+.accomplishment-item strong {
+  color: #2c3e50 !important;
+}
+</style>
+<div class="project-content">
+<a href="https://github.com/Raulitoflying/CS5520-Cafeteria" target="_blank" rel="noopener noreferrer" class="reference-link">
+  View on GitHub
+</a>
+<div class="accomplishments-section">
+<div class="section-header">Key Accomplishments</div>
+<div class="accomplishment-item">
+<p>Developed and launched a mobile app with <strong>React Native</strong> and <strong>Expo</strong>, enabling users to manage orders, profiles, and journals.</p>
+</div>
+<div class="accomplishment-item">
+<p>Secured user authentication with Firebase, supporting <strong>200+</strong> monthly logins and efficient password recovery, optimizing Firestore database to handle <strong>100+</strong> user profiles and <strong>250+</strong> journal entries with robust security.</p>
+</div>
+<div class="accomplishment-item">
+<p>Integrated <strong>Google Maps</strong> and <strong>OpenAI APIs</strong> to enhance location-based searches and personalized coffee recommendations, managing <strong>400+</strong> monthly requests with on-time delivery and feature stability.</p>
+</div>
+</div>
+<div class="section-header">Technologies Used</div>
+<div class="accomplishment-item">
+<p>React Native, Expo</p>
+</div>
+<div class="accomplishment-item">
+<p>Firebase, Firestore</p>
+</div>
+<div class="accomplishment-item">
+<p>Google Maps API, OpenAI API</p>
+</div>
+</div> 
       </div>
     </div>
   </div>
 </section>
+<style>
+  .job-card {
+    border-radius: 12px;
+    border-left: 4px solid #5f9c9c;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    color: #2c3e50;
+  }
+
+  .job-card .job-card__location,
+  .job-card .job-card__dates {
+    color: #6c757d;
+  }
+
+  [data-bs-theme="dark"] .job-card {
+    background: #1f252d;
+    color: #e2e8f0;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+  }
+
+  [data-bs-theme="dark"] .job-card .job-card__location,
+  [data-bs-theme="dark"] .job-card .job-card__dates {
+    color: #a0aec0;
+  }
+</style>
 
     </main>
 

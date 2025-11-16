@@ -36,9 +36,7 @@
 <meta property="og:url" content="http://localhost:1313/projects/streamlit-soccer/">
   <meta property="og:site_name" content="Raulitoflying">
   <meta property="og:title" content="Streamlit Soccer Platform">
-  <meta property="og:description" content="Live Demo and Reference Link: Live Demo
-Reference Link
-Key Accomplishments: Built a real-time interactive soccer analytics platform with Streamlit and Pandas, analyzing 100&#43; player stats across 20&#43; leagues. Optimized analytics using Seaborn and WordCloud for visual player-level storytelling; integrated external APIs to fetch live data from 20&#43; European leagues and the World Cup. Deployed via Streamlit Cloud, improving stability by 40% through automated testing and cache optimization for concurrent users. Technologies Used: Streamlit: For building the interactive web application Pandas: For data manipulation and analysis Seaborn: For statistical data visualization WordCloud: For generating word clouds from text data Python: Core programming language APIs: Integration with external soccer data sources This platform provides soccer enthusiasts with real-time analytics and visualizations, enabling deeper insights into player and team performance across major leagues worldwide.">
+  <meta property="og:description" content="Live Demo View on GitHub Key Accomplishments Built a real-time interactive soccer analytics platform with Streamlit and Pandas, analyzing 100&#43; player stats across 20&#43; leagues.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projects">
@@ -100,6 +98,11 @@ Key Accomplishments: Built a real-time interactive soccer analytics platform wit
             <li class="nav-item">
               <a data-scroll class="nav-link" href="/#projects"
                 >PROJECTS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/blog"
+                >BLOG</a
               >
             </li>
             <li class="nav-item">
@@ -288,14 +291,21 @@ Key Accomplishments: Built a real-time interactive soccer analytics platform wit
         </div>
          
         <div class="experience " >
-          <a href="/projects/kanhas-web/">
+          <a href="/projects/kanbas-web/">
             
             
             
-              <div class="experience__header no-company-logo">
+              
+            <div class="experience__header with-company-logo">
+              <img
+                src="/images/works/kanbas-web_hu_f8160896b8ed85e.webp"
+                alt=" logo"
+                class="experience__company-logo"
+                loading="lazy"
+              >
               
               <div class="experience__meta">
-                <div class="experience__title">Kanhas Web Application</div>
+                <div class="experience__title">Kanbas Web Application</div>
                 <div class="experience__company">Full stack Web Project. <span class="experience__location">
                   Vancouver, BC</span></div>
               </div>
@@ -321,35 +331,157 @@ Key Accomplishments: Built a real-time interactive soccer analytics platform wit
         </div>
         
         <h1>Streamlit Soccer Platform</h1>
-        <div style="margin-bottom: 40px;"></div>
-<div style="margin-bottom: 40px;"></div>
-<h4 id="live-demo-and-reference-link">Live Demo and Reference Link:</h4>
-<div style="margin-bottom: 40px;"></div>
-<p><a href="https://raulitoflyingsoccerplantform.streamlit.app/">Live Demo</a></p>
-<p><a href="https://github.com/Raulitoflying/Streamlit-Soccer-Plantform">Reference Link</a></p>
-<div style="margin-bottom: 40px;"></div>
-<h4 id="key-accomplishments">Key Accomplishments:</h4>
-<ul>
-<li>Built a real-time interactive soccer analytics platform with Streamlit and Pandas, analyzing <strong>100+</strong> player stats across <strong>20+</strong> leagues.</li>
-<li>Optimized analytics using Seaborn and WordCloud for visual player-level storytelling; integrated external APIs to fetch live data from <strong>20+</strong> European leagues and the World Cup.</li>
-<li>Deployed via <strong>Streamlit Cloud</strong>, improving stability by <strong>40%</strong> through automated testing and cache optimization for concurrent users.</li>
-</ul>
-<div style="margin-bottom: 40px;"></div>
-<h4 id="technologies-used">Technologies Used:</h4>
-<ul>
-<li><strong>Streamlit</strong>: For building the interactive web application</li>
-<li><strong>Pandas</strong>: For data manipulation and analysis</li>
-<li><strong>Seaborn</strong>: For statistical data visualization</li>
-<li><strong>WordCloud</strong>: For generating word clouds from text data</li>
-<li><strong>Python</strong>: Core programming language</li>
-<li><strong>APIs</strong>: Integration with external soccer data sources</li>
-</ul>
-<p>This platform provides soccer enthusiasts with real-time analytics and visualizations, enabling deeper insights into player and team performance across major leagues worldwide.</p>
+        <style>
+.project-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
 
+.accomplishments-section {
+  margin-bottom: 3rem;
+}
+
+.section-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.accomplishment-item {
+  background: #f8f9fa;
+  border-left: 4px solid #5f9c9c;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0 8px 8px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.accomplishment-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+  border-left-color: #4a7c7c;
+}
+
+.accomplishment-item p {
+  margin: 0;
+  line-height: 1.7;
+  color: #34495e;
+  font-size: 0.98rem;
+}
+
+.reference-link {
+  display: inline-block;
+  background: #5f9c9c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+
+.reference-link:hover {
+  background: #4a7c7c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .accomplishment-item {
+    padding: 1rem;
+  }
+
+  .reference-link {
+    display: block;
+    margin-bottom: 1rem;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+  color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+  background: #f8f9fa !important;
+  color: #34495e !important;
+}
+
+.accomplishment-item p {
+  color: #34495e !important;
+}
+
+.accomplishment-item strong {
+  color: #2c3e50 !important;
+}
+</style>
+<div class="project-content">
+<a href="https://raulitoflyingsoccerplantform.streamlit.app/" target="_blank" rel="noopener noreferrer" class="reference-link">
+  Live Demo
+</a>
+<a href="https://github.com/Raulitoflying/Streamlit-Soccer-Plantform" target="_blank" rel="noopener noreferrer" class="reference-link">
+  View on GitHub
+</a>
+<div class="accomplishments-section">
+<div class="section-header">Key Accomplishments</div>
+<div class="accomplishment-item">
+<p>Built a real-time interactive soccer analytics platform with Streamlit and Pandas, analyzing <strong>100+</strong> player stats across <strong>20+</strong> leagues.</p>
+</div>
+<div class="accomplishment-item">
+<p>Optimized analytics using Seaborn and WordCloud for visual player-level storytelling; integrated external APIs to fetch live data from <strong>20+</strong> European leagues and the World Cup.</p>
+</div>
+<div class="accomplishment-item">
+<p>Deployed via <strong>Streamlit Cloud</strong>, improving stability by <strong>40%</strong> through automated testing and cache optimization for concurrent users.</p>
+</div>
+</div>
+<div class="section-header">Technologies Used</div>
+<div class="accomplishment-item">
+<p>Streamlit, Pandas</p>
+</div>
+<div class="accomplishment-item">
+<p>Seaborn, WordCloud</p>
+</div>
+<div class="accomplishment-item">
+<p>Python, External Soccer APIs</p>
+</div>
+</div> 
       </div>
     </div>
   </div>
 </section>
+<style>
+  .job-card {
+    border-radius: 12px;
+    border-left: 4px solid #5f9c9c;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    color: #2c3e50;
+  }
+
+  .job-card .job-card__location,
+  .job-card .job-card__dates {
+    color: #6c757d;
+  }
+
+  [data-bs-theme="dark"] .job-card {
+    background: #1f252d;
+    color: #e2e8f0;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+  }
+
+  [data-bs-theme="dark"] .job-card .job-card__location,
+  [data-bs-theme="dark"] .job-card .job-card__dates {
+    color: #a0aec0;
+  }
+</style>
 
     </main>
 

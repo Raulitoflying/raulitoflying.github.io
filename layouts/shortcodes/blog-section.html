@@ -1,0 +1,84 @@
+<section id="blog" class="container section-blog section section--border-bottom rad-animation-group flex-grow-1">
+  <div class="row rad-fade-down">
+    <div class="col-12 col-sm-10 col-md-8 col-lg-6 ml-auto text-center">
+      <h2>{{ .Get "title" | default "Latest Articles" }}</h2>
+      <div class="mt-4 text-grey">
+        <h3>{{ .Get "intro_title" | default "My Blog" }}</h3>
+        <p>{{ .Get "intro_description" }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-5 rad-fade-down">
+    {{ $posts_count := .Get "posts_count" | default "3" }}
+    {{ $posts := where .Site.RegularPages "Section" "blog" }}
+    {{ range first (int $posts_count) $posts }}
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card blog-card h-100">
+          {{ if .Params.featured_image }}
+          <div class="blog-image-container">
+            <img src="{{ .Params.featured_image }}" class="blog-image" alt="{{ .Title }}">
+          </div>
+          {{ else }}
+          <div class="blog-image-container d-flex align-items-center justify-content-center bg-light">
+            <span class="image-placeholder">No image</span>
+          </div>
+          {{ end }}
+          <div class="card-body">
+            <h5 class="card-title">{{ .Title }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ .Date.Format "January 2, 2006" }}</h6>
+            <p class="card-text">{{ .Summary | truncate 120 }}</p>
+            <a href="{{ .Permalink }}" class="btn btn-outline-primary btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+
+  {{ if .Get "button_url" }}
+  <div class="row mt-4">
+    <div class="col-12 text-center">
+      <a href="{{ .Get "button_url" }}" class="btn btn-primary btn-rounded">
+        {{ if .Get "button_icon" }}<i class="{{ .Get "button_icon" }}"></i> {{ end }}
+        {{ .Get "button_text" | default "View All Posts" }}
+      </a>
+    </div>
+  </div>
+  {{ end }}
+
+  <style>
+    .blog-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 8px;
+      overflow: hidden;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    
+    .blog-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    
+    .blog-image-container {
+      height: 200px;
+      overflow: hidden;
+      background-color: #f8f9fa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .blog-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    
+    .image-placeholder {
+      color: #6c757d;
+      font-style: italic;
+    }
+  </style>
+</section>

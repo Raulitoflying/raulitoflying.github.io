@@ -9,32 +9,131 @@ duration: "Aug 2023 - Nov 2023"
 technologies: "Spring Boot, React, MongoDB, JWT Security"
 projectImage: "images/works/healthcare.png"
 ---
-<div style="margin-bottom: 40px;"></div>
-<div style="margin-bottom: 40px;"></div>
 
-#### Reference Link:
-<div style="margin-bottom: 40px;"></div>
+<style>
+.project-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
 
-[Reference Link](https://github.com/Raulitoflying/dbms-healthcare)
+.accomplishments-section {
+  margin-bottom: 3rem;
+}
 
-<div style="margin-bottom: 40px;"></div>
+.section-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
 
-#### Key Accomplishments:
+.accomplishment-item {
+  background: #f8f9fa;
+  border-left: 4px solid #5f9c9c;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0 8px 8px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
 
-- Architected a secure healthcare platform with Spring Boot and React/Vite, implementing **RESTful API principles** and **ACID** transactions in MongoDB to manage **500+** medical records and **1000+** appointments monthly with guaranteed data consistency.
-- Engineered JWT-based authentication with OAuth2 Resource Server and **role-based access control**, ensuring **HIPAA-compliant** data protection while providing specialized interfaces for doctors, patients, and administrators.
-- Leveraged Vite's development tools to accelerate build times by **78% (45s to 10s)**, resulting in improved developer productivity and sub-second rendering performance for end users.
+.accomplishment-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+  border-left-color: #4a7c7c;
+}
 
-<div style="margin-bottom: 40px;"></div>
+.accomplishment-item p {
+  margin: 0;
+  line-height: 1.7;
+  color: #34495e;
+  font-size: 0.98rem;
+}
 
-#### Technologies Used:
-- **Spring Boot**: Backend framework for API development
-- **React/Vite**: Frontend UI framework with optimized build tools
-- **MongoDB**: NoSQL database with ACID transaction support
-- **JWT Security**: Authentication and authorization
-- **OAuth2 Resource Server**: Secure identity management
-- **RBAC**: Role-based access control system
-- **React Router**: Client-side routing
-- **Redux Toolkit**: State management
+.reference-link {
+  display: inline-block;
+  background: #5f9c9c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
 
-This healthcare management system offers a comprehensive solution for medical facilities, with HIPAA-compliant security, efficient appointment scheduling, and specialized user interfaces for all stakeholders in the healthcare ecosystem.
+.reference-link:hover {
+  background: #4a7c7c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .accomplishment-item {
+    padding: 1rem;
+  }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+  color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+  background: #f8f9fa !important;
+  color: #34495e !important;
+}
+
+.accomplishment-item p {
+  color: #34495e !important;
+}
+
+.accomplishment-item strong {
+  color: #2c3e50 !important;
+}
+</style>
+
+<div class="project-content">
+
+<a href="https://github.com/Raulitoflying/dbms-healthcare" target="_blank" rel="noopener noreferrer" class="reference-link">
+  View on GitHub
+</a>
+
+<div class="accomplishments-section">
+<div class="section-header">Key Accomplishments</div>
+
+<div class="accomplishment-item">
+<p>Architected a secure healthcare platform with Spring Boot and React/Vite, implementing <strong>RESTful API principles</strong> and <strong>ACID</strong> transactions in MongoDB to manage <strong>500+</strong> medical records and <strong>1000+</strong> appointments monthly with guaranteed data consistency.</p>
+</div>
+
+<div class="accomplishment-item">
+<p>Engineered JWT-based authentication with OAuth2 Resource Server and <strong>role-based access control</strong>, ensuring <strong>HIPAA-compliant</strong> data protection while providing specialized interfaces for doctors, patients, and administrators.</p>
+</div>
+
+<div class="accomplishment-item">
+<p>Leveraged Vite's development tools to accelerate build times by <strong>78% (45s to 10s)</strong>, resulting in improved developer productivity and sub-second rendering performance for end users.</p>
+</div>
+
+</div>
+
+<div class="section-header">Technologies Used</div>
+
+<div class="accomplishment-item">
+<p>Spring Boot, React/Vite</p>
+</div>
+
+<div class="accomplishment-item">
+<p>MongoDB, ACID transactions</p>
+</div>
+
+<div class="accomplishment-item">
+<p>JWT Security, OAuth2 Resource Server</p>
+</div>
+
+<div class="accomplishment-item">
+<p>RBAC, React Router, Redux Toolkit</p>
+</div>
+
+</div>

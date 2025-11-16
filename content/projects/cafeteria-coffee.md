@@ -9,31 +9,127 @@ duration: "May 2023 - Aug 2023"
 technologies: "React Native, Firebase/Firestore"
 projectImage: "images/works/cafeteria.png"
 ---
-<div style="margin-bottom: 40px;"></div>
-<div style="margin-bottom: 40px;"></div>
 
-#### Reference Link:
+<style>
+.project-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
 
-<div style="margin-bottom: 40px;"></div>
+.accomplishments-section {
+  margin-bottom: 3rem;
+}
 
-[Reference Link](https://github.com/Raulitoflying/CS5520-Cafeteria)
+.section-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
 
-<div style="margin-bottom: 40px;"></div>
+.accomplishment-item {
+  background: #f8f9fa;
+  border-left: 4px solid #5f9c9c;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0 8px 8px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
 
-#### Key Accomplishments:
+.accomplishment-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(95, 156, 156, 0.15);
+  border-left-color: #4a7c7c;
+}
 
-- Developed and launched a mobile app with **React Native** and **Expo**, enabling users to manage orders, profiles, and journals.
-- Secured user authentication with Firebase, supporting **200+** monthly logins and efficient password recovery, optimizing Firestore database to handle **100+** user profiles and **250+** journal entries with robust security.
-- Integrated **Google Maps** and **OpenAI APIs** to enhance location-based searches and personalized coffee recommendations, managing **400+** monthly requests with on-time delivery and feature stability.
+.accomplishment-item p {
+  margin: 0;
+  line-height: 1.7;
+  color: #34495e;
+  font-size: 0.98rem;
+}
 
-<div style="margin-bottom: 40px;"></div>
+.reference-link {
+  display: inline-block;
+  background: #5f9c9c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
 
-#### Technologies Used:
-- **React Native**: Cross-platform mobile development framework
-- **Expo**: Simplified React Native development and deployment
-- **Firebase**: For authentication services
-- **Firestore**: NoSQL database for storing user data
-- **Google Maps API**: For location-based features
-- **OpenAI API**: For personalized recommendations
+.reference-link:hover {
+  background: #4a7c7c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(95, 156, 156, 0.3);
+  color: white;
+}
 
-This mobile application provides coffee enthusiasts with a seamless way to discover, order, and journal their coffee experiences, while supporting location-based recommendations and robust user management. 
+@media (max-width: 768px) {
+  .accomplishment-item {
+    padding: 1rem;
+  }
+}
+
+/* Force light background in all modes for visibility */
+.section-header {
+  color: #2c3e50 !important;
+}
+
+.accomplishment-item {
+  background: #f8f9fa !important;
+  color: #34495e !important;
+}
+
+.accomplishment-item p {
+  color: #34495e !important;
+}
+
+.accomplishment-item strong {
+  color: #2c3e50 !important;
+}
+</style>
+
+<div class="project-content">
+
+<a href="https://github.com/Raulitoflying/CS5520-Cafeteria" target="_blank" rel="noopener noreferrer" class="reference-link">
+  View on GitHub
+</a>
+
+<div class="accomplishments-section">
+<div class="section-header">Key Accomplishments</div>
+
+<div class="accomplishment-item">
+<p>Developed and launched a mobile app with <strong>React Native</strong> and <strong>Expo</strong>, enabling users to manage orders, profiles, and journals.</p>
+</div>
+
+<div class="accomplishment-item">
+<p>Secured user authentication with Firebase, supporting <strong>200+</strong> monthly logins and efficient password recovery, optimizing Firestore database to handle <strong>100+</strong> user profiles and <strong>250+</strong> journal entries with robust security.</p>
+</div>
+
+<div class="accomplishment-item">
+<p>Integrated <strong>Google Maps</strong> and <strong>OpenAI APIs</strong> to enhance location-based searches and personalized coffee recommendations, managing <strong>400+</strong> monthly requests with on-time delivery and feature stability.</p>
+</div>
+
+</div>
+
+<div class="section-header">Technologies Used</div>
+
+<div class="accomplishment-item">
+<p>React Native, Expo</p>
+</div>
+
+<div class="accomplishment-item">
+<p>Firebase, Firestore</p>
+</div>
+
+<div class="accomplishment-item">
+<p>Google Maps API, OpenAI API</p>
+</div>
+
+</div> 

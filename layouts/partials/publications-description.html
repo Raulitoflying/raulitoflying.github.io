@@ -1,0 +1,97 @@
+{{- $contextType := printf "%T" . -}}
+{{- $isShortcode := (eq $contextType "*hugolib.ShortcodeWithPage") -}}
+
+{{/* ---------------------------------------------------------------------------
+     INTRO TITLE / DESCRIPTION
+     --------------------------------------------------------------------------- */}}
+{{- $introTitle := "" -}}
+{{- $introDescription := "" -}}
+
+{{- if $isShortcode }}
+  {{- $introTitle = .Get "intro_title" | default "" -}}
+  {{- $introDescription = .Get "intro_description" | default "" | safeHTML -}}
+{{ else }}
+  {{- $introTitle = "" -}}
+  {{- $introDescription = "" -}}
+{{ end }}
+
+{{/* ---------------------------------------------------------------------------
+     BUTTONS
+     --------------------------------------------------------------------------- */}}
+{{- $btn1Enable := false -}}
+{{- $btn1URL := "" -}}
+{{- $btn1Icon := "" -}}
+{{- $btn1Text := "" -}}
+{{- $btn1External := false -}}
+
+{{- $btn2Enable := false -}}
+{{- $btn2URL := "" -}}
+{{- $btn2Icon := "" -}}
+{{- $btn2Text := "" -}}
+{{- $btn2External := false -}}
+
+{{- if $isShortcode }}
+  {{- with .Get "button1_url" }}
+    {{- $btn1Enable = true -}}
+    {{- $btn1URL = . -}}
+  {{ end }}
+  {{- with .Get "button1_icon" }}
+    {{- $btn1Icon = . -}}
+  {{ end }}
+  {{- with .Get "button1_text" }}
+    {{- $btn1Text = . -}}
+  {{ end }}
+  {{- with .Get "button1_external" }}
+    {{- $btn1External = . -}}
+  {{ end }}
+
+  {{- with .Get "button2_url" }}
+    {{- $btn2Enable = true -}}
+    {{- $btn2URL = . -}}
+  {{ end }}
+  {{- with .Get "button2_icon" }}
+    {{- $btn2Icon = . -}}
+  {{ end }}
+  {{- with .Get "button2_text" }}
+    {{- $btn2Text = . -}}
+  {{ end }}
+  {{- with .Get "button2_external" }}
+    {{- $btn2External = . -}}
+  {{ end }}
+{{ end }}
+
+<div class="container-experience">
+  <div class="row">
+    {{ if $introTitle }}
+    <h2>{{ $introTitle }}</h2>
+    {{ end }}
+    <div class="lead">{{ $introDescription }}</div>
+  </div>
+
+  <div class="row">
+    {{ if $btn1Enable }}
+      <div class="col-12 col-lg-4">
+        <a
+          href='{{ $btn1URL | absURL }}'
+          class="btn btn-primary btn-block w-100"
+          target="_blank" rel="noopener noreferrer"
+        >
+          {{ if $btn1Icon }}<i class="{{ $btn1Icon }}"></i>{{ end }}
+          {{ $btn1Text }}
+        </a>
+      </div>
+    {{ end }}
+    {{ if $btn2Enable }}
+      <div class="col-12 col-lg-4">
+        <a
+          href='{{ $btn2URL | absURL }}'
+          class="btn btn-frameless w-100"
+          target="_blank" rel="noopener noreferrer"
+        >
+          {{ if $btn2Icon }}<i class="{{ $btn2Icon }}"></i>{{ end }}
+          {{ $btn2Text }}
+        </a>
+      </div>
+    {{ end }}
+  </div>
+</div>

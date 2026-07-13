@@ -2,7 +2,7 @@
 - id: "meta_title"
   translation: "Adritian - a high performance hugo theme by Adrián Moreno"
 - id: "meta_description"
-  translation: "This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+  translation: "Yixiang Zhou — Software & Data Engineer specializing in NLP, LLM-based classification, and full-stack development."
 - id: "meta_keywords"
   translation: "hugo, theme, bootstrap, adritian, adrian moreno, personal site, portfolio, single page application"
 - id: "meta_author"
@@ -50,7 +50,7 @@
   translation: "Personal Site for Yixiang Zhou - a high performance hugo page"
 
 - id: "head_description"
-  translation: "This hugo theme is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+  translation: "Yixiang Zhou — Software & Data Engineer specializing in NLP, LLM-based classification, and full-stack development."
 
 
 ## Blog

@@ -52,7 +52,7 @@ target = "assets/css/bootstrap-print.css"
 
 [params]
 title = 'Raulitoflying'
-description = 'This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications.'
+description = 'Yixiang Zhou — Software & Data Engineer specializing in NLP, LLM-based classification, and full-stack development. Portfolio of projects, experience, and publications.'
 images = ['/img/og-img.png']
 sections = [
   "showcase",

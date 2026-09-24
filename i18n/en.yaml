@@ -1,8 +1,6 @@
 ## Meta tags
 - id: "meta_title"
   translation: "Adritian - a high performance hugo theme by Adrián Moreno"
-- id: "meta_description"
-  translation: "Yixiang Zhou — Software & Data Engineer specializing in NLP, LLM-based classification, and full-stack development."
 - id: "meta_keywords"
   translation: "hugo, theme, bootstrap, adritian, adrian moreno, personal site, portfolio, single page application"
 - id: "meta_author"
